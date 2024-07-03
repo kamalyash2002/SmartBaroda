@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Eligibility"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+<!--    Top View-->
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/rlTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvHeadOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/overpass_semibold"
+                android:text="Checking Eligibility"
+                android:textColor="#333333"
+                android:textSize="26sp" />
+
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="250dp"
+                android:layout_gravity="center"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/eligibilityasset" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:padding="10dp"
+
+                android:textStyle="bold"
+                android:text="Fetching Information" />
+
+            <TextView
+                android:id="@+id/text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:layout_below="@+id/progress_Bar"
+                android:text="0%"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/green"
+
+                android:layout_centerHorizontal="true"/>
+
+            <ProgressBar
+                android:id="@+id/progress_Bar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:minHeight="20dp"
+                android:layout_marginBottom="30dp"
+                android:max="100"
+                android:progress="0" />
+
+            <TextView
+                android:id="@+id/textProcess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hold on. We will take a minute or two"
+                android:textColor="@color/colorPrimary"
+                android:fontFamily="@font/overpass_medium"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:id="@+id/textb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Congratulations! Your Identity proof is verified! Woah! Took just two seconds! That was blazingly fast!"
+                android:textColor="#04C604"
+                android:textSize="18sp"
+                android:visibility="gone"/>
+            <TextView
+                android:id="@+id/textc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Congratulations! Your Identity proof is verified! Woah! Took just three seconds!! Hmm, we can do better than that"
+                android:textColor="#04C604"
+                android:textSize="18sp"
+                android:visibility="gone"/>
+            <TextView
+                android:id="@+id/textd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Congrats! You have successfully passed all the levels! That too, just in 15 secs!"
+                android:textColor="#04C604"
+                android:textSize="18sp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/textViewe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#04C604"
+                android:textSize="18sp"
+                android:visibility="gone"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="30dp"
+                android:text="Wait aminute we are redirecting you to the loan offer" />
+
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/btn_primary"
+                android:text="Proceed Further"
+                android:visibility="gone"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

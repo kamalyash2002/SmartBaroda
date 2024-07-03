@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".customerinfo.CustInformation05"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp">
+
+        <RelativeLayout
+            android:id="@+id/rlTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/tvHeadOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/overpass_semibold"
+                android:text="@string/customer_heading_five"
+                android:textColor="#333333"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+
+
+            <!--            #3 Applicant Name.-->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="6dp"
+                android:fontFamily="@font/overpass_medium"
+                android:text="Bank Name"
+                android:textColor="#311432"
+                android:textSize="14sp" />
+
+
+                <EditText
+                    android:id="@+id/bankName"
+                    android:background="@drawable/edit_text_square_rounded"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#3C444E"
+                    android:textSize="16sp"
+                    android:paddingLeft="20dp"
+
+                    android:paddingRight="20dp"
+                    android:inputType="textPersonName"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:fontFamily="@font/overpass_medium"
+                    android:gravity="start"
+                    android:hint="Bank name"
+
+                    />
+
+
+
+
+            <!--            #1 Loan Cycle No.-->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="6dp"
+                android:fontFamily="@font/overpass_medium"
+                android:text="Bank Account No."
+                android:textColor="#311432"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/bankAccNo"
+                android:background="@drawable/edit_text_square_rounded"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#3C444E"
+                android:textSize="16sp"
+                android:paddingLeft="20dp"
+                android:hint="xxxx xxxx xxxx xxxx"
+
+                android:paddingRight="20dp"
+                android:inputType="number"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:fontFamily="@font/overpass_medium"
+                android:gravity="start"
+
+                />
+=
+
+
+            <!--            #2 Salutation -->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="6dp"
+                android:fontFamily="@font/overpass_medium"
+                android:text="IFSC Code"
+                android:textColor="#311432"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/ifsc"
+                android:background="@drawable/edit_text_square_rounded"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#3C444E"
+                android:textSize="16sp"
+                android:paddingLeft="20dp"
+                android:hint="IFSC"
+
+                android:paddingRight="20dp"
+                android:inputType="number"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:fontFamily="@font/overpass_medium"
+                android:gravity="start"
+
+                />
+
+
+
+            <!--            #4 Mother's name -->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="6dp"
+                android:fontFamily="@font/overpass_medium"
+                android:text="Branch"
+                android:textColor="#311432"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/branch"
+                android:background="@drawable/edit_text_square_rounded"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#3C444E"
+                android:textSize="16sp"
+                android:paddingLeft="20dp"
+
+                android:paddingRight="20dp"
+                android:hint="Branch"
+                android:inputType="textPersonName"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:fontFamily="@font/overpass_medium"
+                android:gravity="start"
+
+                />
+
+
+            <!--            #5 Father's name -->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="6dp"
+                android:fontFamily="@font/overpass_medium"
+                android:text="Upload Bank Passbook's First Page"
+                android:textColor="#311432"
+                android:textSize="14sp" />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_light_violet_corner_10"
+
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:id="@+id/pasbookStatus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+
+                        android:layout_marginRight="25dp"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="14sp"
+                        android:text="Pending"
+                        android:textStyle="bold"
+                        android:textAlignment="textEnd"
+                        android:textColor="#FF9B3F"
+                        android:textSize="12sp"
+                        />
+
+
+                    <ImageView
+                        android:id="@+id/imageViewPick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="5dp"
+                        app:srcCompat="@drawable/kycfiles" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginRight="25dp"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="14sp"
+                        android:text="First Page of Bank Passbook"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+                        >
+                <Button
+                            android:id="@+id/cameraButton"
+                            android:layout_width="80dp"
+                            android:layout_height="20dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/btn_primary"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:padding="2dp"
+
+                            android:text="Camera"
+                            android:textColor="@color/white"
+                            android:textSize="10sp" />
+
+                        <Button
+                            android:id="@+id/uploadButton"
+                            android:layout_width="80dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/btn_primary"
+                            android:text="upload"
+                            android:backgroundTint="@color/colorPrimary"
+                            android:padding="2dp"
+                            android:textColor="@color/white"
+                            android:layout_margin="10dp"
+                            android:textSize="10sp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnNext"
+                style="@style/ButtonBigVioletTheme"
+                android:layout_width="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="50dp"
+                android:enabled="false"
+                android:layout_marginTop="20dp"
+                android:text="@string/next" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

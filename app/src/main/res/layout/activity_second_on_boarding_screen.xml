@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".onboarding.SecondOnBoardingScreen"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_speed"
+        android:layout_marginBottom="90dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Swift disbursements"
+        android:fontFamily="@font/overpass_semibold"
+        android:textSize="28sp"
+        android:textColor="#3F3D3D"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="2dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Instant loans without any  paper work at the comfort of your home"
+        android:fontFamily="@font/overpass_medium"
+        android:textSize="20sp"
+        android:textColor="#9096AB"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="30dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_otwo"
+        android:layout_gravity="left"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="10dp"/>
+<!--    <Button-->
+<!--        android:id="@+id/btnNext"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="end"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:background="@drawable/btn_secondary"-->
+<!--        android:backgroundTint="#333333"-->
+<!--        android:fontFamily="@font/overpass_medium"-->
+<!--        android:padding="12dp"-->
+<!--        android:text="Allow"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="14sp"-->
+<!--        android:layout_marginRight="40dp"-->
+
+<!--        />-->
+</LinearLayout>

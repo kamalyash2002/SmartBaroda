@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".loan.LoanOfferReview"
+        android:orientation="vertical"
+        android:background="@color/white"
+    android:paddingTop="10dp"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp">
+
+
+
+    <!--    Top View-->
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_back"
+
+                />
+
+            <TextView
+                android:id="@+id/titlebar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="4dp"
+                android:fontFamily="@font/overpass_medium"
+                android:text="Review Loan Application"
+                android:textAlignment="center"
+                android:textColor="#141414"
+                android:textSize="16sp" />
+
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="4dp"
+            android:layout_marginTop="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/btn_primary" />
+    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#333"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:paddingBottom="0dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:text="Loan Details"
+
+            />
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="10dp"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="5dp"
+            >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginBottom="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="15dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_gravity="left"
+                        android:layout_marginBottom="30dp"
+                        >
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#222"
+                            android:textSize="18sp"
+                            android:padding="5dp"
+                            android:fontFamily="@font/overpass_bold"
+                            android:text="Review Information"
+                            android:layout_marginBottom="10dp"/>
+
+
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            app:cardUseCompatPadding="true"
+                            app:cardCornerRadius="2dp"
+
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                >
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/white"
+                                    android:textSize="14sp"
+                                    android:background="@color/colorPrimary"
+                                    android:paddingLeft="10dp"
+                                    android:paddingTop="4dp"
+                                    android:paddingBottom="4dp"
+                                    android:fontFamily="@font/overpass_medium"
+                                    android:text="Loan Amount"
+                                    android:paddingRight="20dp"
+                                    />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:textColor="#555"
+                                    android:textSize="14sp"
+                                    android:paddingLeft="10dp"
+                                    android:paddingTop="4dp"
+                                    android:paddingBottom="4dp"
+
+                                    android:fontFamily="@font/overpass_medium"
+                                    android:text="₹3,000"
+                                    />
+                            </LinearLayout>
+
+                            <!--                        <LinearLayout-->
+                            <!--                            android:layout_width="match_parent"-->
+                            <!--                            android:layout_height="match_parent"-->
+                            <!--                            android:orientation="horizontal">-->
+
+
+                            <!--                            -->
+                            <!--                        </LinearLayout>-->
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            app:cardUseCompatPadding="true"
+                            app:cardCornerRadius="2dp"
+
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                >
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/white"
+                                    android:textSize="14sp"
+                                    android:background="@color/colorPrimary"
+                                    android:paddingLeft="10dp"
+                                    android:paddingTop="4dp"
+                                    android:paddingBottom="4dp"
+                                    android:fontFamily="@font/overpass_medium"
+                                    android:text="Interest Plan"
+                                    android:paddingRight="20dp"
+                                    />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#555"
+                                    android:textSize="14sp"
+                                    android:paddingLeft="10dp"
+                                    android:paddingTop="4dp"
+                                    android:paddingBottom="4dp"
+                                    android:fontFamily="@font/overpass_medium"
+                                    android:text="x % for 4W, y % for 4W, z % for 5W"
+                                    />
+                            </LinearLayout>
+
+
+                            <!--                        <LinearLayout-->
+                            <!--                            android:layout_width="match_parent"-->
+                            <!--                            android:layout_height="match_parent"-->
+                            <!--                            android:orientation="horizontal">-->
+
+
+                            <!--                            -->
+                            <!--                        </LinearLayout>-->
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            app:cardUseCompatPadding="true"
+                            app:cardCornerRadius="2dp"
+
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                >
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/white"
+                                    android:textSize="14sp"
+                                    android:background="@color/colorPrimary"
+
+                                    android:paddingLeft="10dp"
+                                    android:paddingTop="4dp"
+                                    android:paddingBottom="4dp"
+                                    android:fontFamily="@font/overpass_medium"
+                                    android:text="Disbursal Amount"
+                                    android:paddingRight="20dp"
+                                    />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#555"
+                                    android:textSize="14sp"
+                                    android:paddingLeft="10dp"
+                                    android:paddingTop="4dp"
+                                    android:paddingBottom="4dp"
+                                    android:fontFamily="@font/overpass_medium"
+                                    android:text="₹2,575"
+                                    />
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            app:cardUseCompatPadding="true"
+                            app:cardCornerRadius="2dp"
+
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                >
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/white"
+                                    android:textSize="14sp"
+                                    android:background="@color/colorPrimary"
+
+                                    android:paddingLeft="10dp"
+                                    android:paddingTop="4dp"
+                                    android:paddingBottom="4dp"
+                                    android:fontFamily="@font/overpass_medium"
+                                    android:text="Repayment Schedule"
+                                    android:paddingRight="20dp"
+                                    />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#555"
+                                    android:textSize="14sp"
+                                    android:paddingLeft="10dp"
+                                    android:paddingTop="4dp"
+                                    android:paddingBottom="4dp"
+                                    android:fontFamily="@font/overpass_medium"
+                                    android:text="Weekly"
+                                    />
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            app:cardUseCompatPadding="true"
+                            app:cardCornerRadius="2dp"
+
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                >
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/white"
+                                    android:textSize="14sp"
+                                    android:background="@color/colorPrimary"
+
+                                    android:paddingLeft="10dp"
+                                    android:paddingTop="4dp"
+                                    android:paddingBottom="4dp"
+                                    android:fontFamily="@font/overpass_medium"
+                                    android:text="Tenure"
+                                    android:paddingRight="20dp"
+                                    />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#555"
+                                    android:textSize="14sp"
+                                    android:paddingLeft="10dp"
+                                    android:paddingTop="4dp"
+                                    android:paddingBottom="4dp"
+                                    android:fontFamily="@font/overpass_medium"
+                                    android:text="13 weeks"
+                                    />
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            app:cardUseCompatPadding="true"
+                            app:cardCornerRadius="2dp"
+
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                >
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/white"
+                                    android:textSize="14sp"
+                                    android:background="@color/colorPrimary"
+
+                                    android:paddingLeft="10dp"
+                                    android:paddingTop="4dp"
+                                    android:paddingBottom="4dp"
+                                    android:fontFamily="@font/overpass_medium"
+                                    android:text="Service Tax"
+                                    android:paddingRight="20dp"
+                                    />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#555"
+                                    android:textSize="18sp"
+                                    android:paddingLeft="10dp"
+                                    android:paddingTop="4dp"
+                                    android:paddingBottom="4dp"
+                                    android:fontFamily="@font/overpass_medium"
+                                    android:text="p%"
+                                    />
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            app:cardUseCompatPadding="true"
+                            app:cardCornerRadius="2dp"
+
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/colorPrimary"
+                                    android:fontFamily="@font/overpass_medium"
+                                    android:paddingLeft="10dp"
+                                    android:paddingTop="4dp"
+                                    android:paddingRight="20dp"
+                                    android:paddingBottom="4dp"
+                                    android:text="GST"
+                                    android:textColor="@color/white"
+                                    android:textSize="14sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/overpass_medium"
+                                    android:paddingLeft="10dp"
+                                    android:paddingTop="4dp"
+                                    android:paddingBottom="4dp"
+                                    android:text="q%"
+                                    android:textColor="#555"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+            </ScrollView>
+        </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="17dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimary"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+    </LinearLayout>

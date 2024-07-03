@@ -1,0 +1,664 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.infuxion_alternate"
+4    android:versionCode="26"
+5    android:versionName="KYC v1.26" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+11-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:6:5-8:47
+11-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:7:9-70
+12
+13    <queries>
+13-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:10:5-16:15
+14        <intent>
+14-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:11:9-15:18
+15            <action android:name="android.intent.action.MAIN" />
+15-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:12:13-65
+15-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:12:21-62
+16
+17            <category android:name="android.intent.category.LAUNCHER" />
+17-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:14:13-73
+17-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:14:23-70
+18        </intent>
+19    </queries>
+20
+21    <uses-feature android:name="android.hardware.camera.any" />
+21-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:18:5-64
+21-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:18:19-61
+22    <uses-feature
+22-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:19:5-21:36
+23        android:name="android.hardware.telephony"
+23-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:20:9-50
+24        android:required="false" />
+24-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:21:9-33
+25
+26    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+26-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:23:5-75
+26-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:23:22-72
+27    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+27-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:24:5-70
+27-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:24:22-67
+28    <uses-permission android:name="android.permission.READ_SMS" />
+28-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:25:5-67
+28-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:25:22-64
+29    <uses-permission android:name="android.permission.CAMERA" />
+29-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:26:5-65
+29-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:26:22-62
+30    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+30-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:27:5-72
+30-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:27:22-69
+31    <uses-permission android:name="android.permission.VIBRATE" />
+31-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:28:5-66
+31-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:28:22-63
+32    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+32-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:29:5-81
+32-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:29:22-78
+33    <uses-permission android:name="android.permission.INTERNET" />
+33-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:30:5-67
+33-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:30:22-64
+34    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+34-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:31:5-79
+34-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:31:22-76
+35    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+35-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:32:5-71
+35-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:32:22-68
+36    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+36-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:33:5-80
+36-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:33:22-77
+37    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+37-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:34:5-81
+37-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:34:22-78
+38    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+38-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:35:5-79
+38-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:35:22-76
+39    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+39-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:36:5-85
+39-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:36:22-82
+40    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+40-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:23:5-75
+40-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:23:22-72
+41    <uses-permission android:name="android.permission.READ_SMS" />
+41-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:25:5-67
+41-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:25:22-64
+42    <uses-permission android:name="android.permission.READ_CONTACTS" />
+42-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:39:5-72
+42-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:39:22-69
+43    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+43-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:23:5-75
+43-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:23:22-72
+44    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+44-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:41:5-42:53
+44-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:41:22-74
+45
+46    <!-- suppress DeprecatedClassUsageInspection -->
+47    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+47-->[androidx.biometric:biometric:1.1.0] /home/uphar/.jdks/caches/transforms-3/dbe0311bdee55b9a1066e0a22de1dfab/transformed/biometric-1.1.0/AndroidManifest.xml:27:5-74
+47-->[androidx.biometric:biometric:1.1.0] /home/uphar/.jdks/caches/transforms-3/dbe0311bdee55b9a1066e0a22de1dfab/transformed/biometric-1.1.0/AndroidManifest.xml:27:22-71
+48    <uses-permission android:name="android.permission.WAKE_LOCK" />
+48-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/uphar/.jdks/caches/transforms-3/f32b52c1e1675f6f57d7ebd3c238e719/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:24:5-68
+48-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/uphar/.jdks/caches/transforms-3/f32b52c1e1675f6f57d7ebd3c238e719/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:24:22-65
+49    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+49-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/uphar/.jdks/caches/transforms-3/f32b52c1e1675f6f57d7ebd3c238e719/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:25:5-79
+49-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/uphar/.jdks/caches/transforms-3/f32b52c1e1675f6f57d7ebd3c238e719/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:25:22-76
+50    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+50-->[com.google.android.gms:play-services-measurement:21.2.0] /home/uphar/.jdks/caches/transforms-3/81f3c4c488eb1edf4b74f4a51ed75dcb/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+50-->[com.google.android.gms:play-services-measurement:21.2.0] /home/uphar/.jdks/caches/transforms-3/81f3c4c488eb1edf4b74f4a51ed75dcb/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
+51
+52    <application
+52-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:44:5-191:19
+53        android:allowBackup="false"
+53-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:45:9-36
+54        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+54-->[androidx.core:core:1.8.0] /home/uphar/.jdks/caches/transforms-3/ad06c22588637fb1114095452eb3c461/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+55        android:dataExtractionRules="@xml/data_extraction_rules"
+55-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:46:9-65
+56        android:debuggable="true"
+57        android:description="@string/description"
+57-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:47:9-50
+58        android:extractNativeLibs="false"
+59        android:fullBackupContent="@xml/backup_rules"
+59-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:48:9-54
+60        android:icon="@drawable/icon"
+60-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:49:9-38
+61        android:label="@string/app_name"
+61-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:50:9-41
+62        android:roundIcon="@drawable/icon"
+62-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:51:9-43
+63        android:supportsRtl="true"
+63-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:52:9-35
+64        android:theme="@style/Theme.Infuxion_alternate"
+64-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:53:9-56
+65        android:usesCleartextTraffic="true" >
+65-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:54:9-44
+66        <activity
+66-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:56:9-58:40
+67            android:name="com.example.infuxion_alternate.intro.dashboard.DashbooardActivity"
+67-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:57:13-63
+68            android:exported="false" />
+68-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:58:13-37
+69        <activity
+69-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:61:9-70:20
+70            android:name="com.example.infuxion_alternate.intro.SplashActivity"
+70-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:62:13-49
+71            android:exported="true"
+71-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:63:13-36
+72            android:theme="@style/SplashTheme" >
+72-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:64:13-47
+73            <intent-filter>
+73-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:65:13-69:29
+74                <action android:name="android.intent.action.MAIN" />
+74-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:12:13-65
+74-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:12:21-62
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:14:13-73
+76-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:14:23-70
+77            </intent-filter>
+78        </activity>
+79        <activity
+79-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:71:9-74:53
+80            android:name="com.example.infuxion_alternate.intro.SecurityActivity"
+80-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:72:13-51
+81            android:exported="false"
+81-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:73:13-37
+82            android:theme="@style/StatusBarWhite" />
+82-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:74:13-50
+83        <activity
+83-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:75:9-83:20
+84            android:name="com.example.infuxion_alternate.utils.CameraActivity"
+84-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:76:13-49
+85            android:exported="false" >
+85-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:77:13-37
+86
+87            <!-- <intent-filter> -->
+88            <!-- <action android:name="android.intent.action.MAIN" /> -->
+89            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+90            <!-- </intent-filter> -->
+91        </activity>
+92        <activity
+92-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:84:9-86:40
+93            android:name="com.example.infuxion_alternate.app_lock.PinLockActivity"
+93-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:85:13-53
+94            android:exported="false" />
+94-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:86:13-37
+95        <activity
+95-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:87:9-89:40
+96            android:name="com.example.infuxion_alternate.FirebasePhoneAuth"
+96-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:88:13-46
+97            android:exported="false" />
+97-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:89:13-37
+98        <activity
+98-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:90:9-92:40
+99            android:name="com.example.infuxion_alternate.SecurityAssurance"
+99-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:91:13-46
+100            android:exported="false" />
+100-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:92:13-37
+101        <activity
+101-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:93:9-95:40
+102            android:name="com.example.infuxion_alternate.TextActivity"
+102-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:94:13-41
+103            android:exported="false" />
+103-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:95:13-37
+104        <activity
+104-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:96:9-99:53
+105            android:name="com.example.infuxion_alternate.HomeActivity"
+105-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:97:13-41
+106            android:exported="false"
+106-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:98:13-37
+107            android:theme="@style/StatusBarWhite" />
+107-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:99:13-50
+108        <activity
+108-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:100:9-108:20
+109            android:name="com.example.infuxion_alternate.intro.FaceMlActivity"
+109-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:101:13-49
+110            android:exported="true" >
+110-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:102:13-36
+111
+112            <!-- <intent-filter> -->
+113            <!-- <action android:name="android.intent.action.MAIN" /> -->
+114            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+115            <!-- </intent-filter> -->
+116        </activity>
+117        <activity
+117-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:111:9-113:40
+118            android:name="com.example.infuxion_alternate.CheckedEligibility"
+118-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:112:13-47
+119            android:exported="false" />
+119-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:113:13-37
+120        <activity
+120-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:114:9-116:40
+121            android:name="com.example.infuxion_alternate.Eligibility"
+121-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:115:13-40
+122            android:exported="false" />
+122-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:116:13-37
+123        <activity
+123-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:118:9-120:40
+124            android:name="com.example.infuxion_alternate.SanctionOtp"
+124-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:119:13-40
+125            android:exported="false" />
+125-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:120:13-37
+126        <activity
+126-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:121:9-123:40
+127            android:name="com.example.infuxion_alternate.SanctionLoanContract"
+127-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:122:13-49
+128            android:exported="false" />
+128-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:123:13-37
+129        <activity
+129-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:124:9-126:40
+130            android:name="com.example.infuxion_alternate.loan.LoanOfferReview"
+130-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:125:13-49
+131            android:exported="false" />
+131-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:126:13-37
+132        <activity
+132-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:127:9-129:40
+133            android:name="com.example.infuxion_alternate.loan.LoanOffers"
+133-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:128:13-44
+134            android:exported="false" />
+134-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:129:13-37
+135        <activity
+135-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:130:9-132:40
+136            android:name="com.example.infuxion_alternate.extras.NoInternetConnection"
+136-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:131:13-56
+137            android:exported="false" />
+137-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:132:13-37
+138
+139        <!-- <intent-filter>&ndash;&gt; -->
+140        <!-- <action android:name="android.intent.action.MAIN" /> -->
+141
+142
+143        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+144        <!-- </intent-filter> -->
+145
+146        <activity
+146-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:145:9-147:40
+147            android:name="com.example.infuxion_alternate.Sanction"
+147-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:146:13-37
+148            android:exported="false" />
+148-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:147:13-37
+149
+150        <!-- <intent-filter> -->
+151        <!-- <action android:name="android.intent.action.MAIN" /> -->
+152        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+153
+154        <activity
+154-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:157:9-159:40
+155            android:name="com.example.infuxion_alternate.PrivacyPolicy"
+155-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:158:13-42
+156            android:exported="false" />
+156-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:159:13-37
+157        <activity
+157-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:162:9-164:40
+158            android:name="com.example.infuxion_alternate.Tnc"
+158-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:163:13-32
+159            android:exported="false" />
+159-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:164:13-37
+160
+161        <!--
+162            <intent-filter>
+163                <action android:name="android.intent.action.MAIN" />
+164
+165                <category android:name="android.intent.category.LAUNCHER" />
+166            </intent-filter>
+167        -->
+168
+169        <meta-data
+169-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:175:9-177:36
+170            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+170-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:176:13-70
+171            android:value="face" />
+171-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:177:13-33
+172        <meta-data
+172-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:178:9-180:35
+173            android:name="com.google.mlkit.vision.DEPENDENCIES"
+173-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:179:13-64
+174            android:value="ocr" />
+174-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:180:13-32
+175
+176        <provider
+176-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:182:9-190:20
+177            android:name="androidx.core.content.FileProvider"
+177-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:183:13-62
+178            android:authorities="com.example.infuxion_alternate.fileProvider"
+178-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:184:13-78
+179            android:exported="false"
+179-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:185:13-37
+180            android:grantUriPermissions="true" >
+180-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:186:13-47
+181            <meta-data
+181-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:187:13-189:54
+182                android:name="android.support.FILE_PROVIDER_PATHS"
+182-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:188:17-67
+183                android:resource="@xml/file_paths" />
+183-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/AndroidManifest.xml:189:17-51
+184        </provider>
+185
+186        <service
+186-->[com.google.firebase:firebase-crashlytics-ktx:18.3.2] /home/uphar/.jdks/caches/transforms-3/6dc90325c095066399ceed74e646410a/transformed/firebase-crashlytics-ktx-18.3.2/AndroidManifest.xml:23:9-29:19
+187            android:name="com.google.firebase.components.ComponentDiscoveryService"
+187-->[com.google.firebase:firebase-crashlytics-ktx:18.3.2] /home/uphar/.jdks/caches/transforms-3/6dc90325c095066399ceed74e646410a/transformed/firebase-crashlytics-ktx-18.3.2/AndroidManifest.xml:24:13-84
+188            android:directBootAware="true"
+188-->[com.google.firebase:firebase-common:20.2.0] /home/uphar/.jdks/caches/transforms-3/7eb133c31fb1ca8b58bb71aec4d78f6d/transformed/firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+189            android:exported="false" >
+189-->[com.google.firebase:firebase-crashlytics-ktx:18.3.2] /home/uphar/.jdks/caches/transforms-3/6dc90325c095066399ceed74e646410a/transformed/firebase-crashlytics-ktx-18.3.2/AndroidManifest.xml:25:13-37
+190            <meta-data
+190-->[com.google.firebase:firebase-crashlytics-ktx:18.3.2] /home/uphar/.jdks/caches/transforms-3/6dc90325c095066399ceed74e646410a/transformed/firebase-crashlytics-ktx-18.3.2/AndroidManifest.xml:26:13-28:85
+191                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar"
+191-->[com.google.firebase:firebase-crashlytics-ktx:18.3.2] /home/uphar/.jdks/caches/transforms-3/6dc90325c095066399ceed74e646410a/transformed/firebase-crashlytics-ktx-18.3.2/AndroidManifest.xml:27:17-130
+192                android:value="com.google.firebase.components.ComponentRegistrar" />
+192-->[com.google.firebase:firebase-crashlytics-ktx:18.3.2] /home/uphar/.jdks/caches/transforms-3/6dc90325c095066399ceed74e646410a/transformed/firebase-crashlytics-ktx-18.3.2/AndroidManifest.xml:28:17-82
+193            <meta-data
+193-->[com.google.firebase:firebase-analytics-ktx:21.2.0] /home/uphar/.jdks/caches/transforms-3/7b3a209fabb99af6cb4b165564044fca/transformed/firebase-analytics-ktx-21.2.0/AndroidManifest.xml:11:13-13:85
+194                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+194-->[com.google.firebase:firebase-analytics-ktx:21.2.0] /home/uphar/.jdks/caches/transforms-3/7b3a209fabb99af6cb4b165564044fca/transformed/firebase-analytics-ktx-21.2.0/AndroidManifest.xml:12:17-126
+195                android:value="com.google.firebase.components.ComponentRegistrar" />
+195-->[com.google.firebase:firebase-analytics-ktx:21.2.0] /home/uphar/.jdks/caches/transforms-3/7b3a209fabb99af6cb4b165564044fca/transformed/firebase-analytics-ktx-21.2.0/AndroidManifest.xml:13:17-82
+196            <meta-data
+196-->[com.google.firebase:firebase-auth-ktx:21.1.0] /home/uphar/.jdks/caches/transforms-3/4e35cacb1346d402f785698295cfb2fe/transformed/firebase-auth-ktx-21.1.0/AndroidManifest.xml:11:13-13:85
+197                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+197-->[com.google.firebase:firebase-auth-ktx:21.1.0] /home/uphar/.jdks/caches/transforms-3/4e35cacb1346d402f785698295cfb2fe/transformed/firebase-auth-ktx-21.1.0/AndroidManifest.xml:12:17-116
+198                android:value="com.google.firebase.components.ComponentRegistrar" />
+198-->[com.google.firebase:firebase-auth-ktx:21.1.0] /home/uphar/.jdks/caches/transforms-3/4e35cacb1346d402f785698295cfb2fe/transformed/firebase-auth-ktx-21.1.0/AndroidManifest.xml:13:17-82
+199            <meta-data
+199-->[com.google.firebase:firebase-common-ktx:20.2.0] /home/uphar/.jdks/caches/transforms-3/57634438c461f954680c9c6c244184f6/transformed/firebase-common-ktx-20.2.0/AndroidManifest.xml:14:13-16:85
+200                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+200-->[com.google.firebase:firebase-common-ktx:20.2.0] /home/uphar/.jdks/caches/transforms-3/57634438c461f954680c9c6c244184f6/transformed/firebase-common-ktx-20.2.0/AndroidManifest.xml:15:17-113
+201                android:value="com.google.firebase.components.ComponentRegistrar" />
+201-->[com.google.firebase:firebase-common-ktx:20.2.0] /home/uphar/.jdks/caches/transforms-3/57634438c461f954680c9c6c244184f6/transformed/firebase-common-ktx-20.2.0/AndroidManifest.xml:16:17-82
+202            <meta-data
+202-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
+203                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+203-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
+204                android:value="com.google.firebase.components.ComponentRegistrar" />
+204-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
+205            <meta-data
+205-->[com.google.firebase:firebase-crashlytics:18.3.2] /home/uphar/.jdks/caches/transforms-3/00eb6d5f1067f434370cdbc6a2283fc7/transformed/firebase-crashlytics-18.3.2/AndroidManifest.xml:17:13-19:85
+206                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+206-->[com.google.firebase:firebase-crashlytics:18.3.2] /home/uphar/.jdks/caches/transforms-3/00eb6d5f1067f434370cdbc6a2283fc7/transformed/firebase-crashlytics-18.3.2/AndroidManifest.xml:18:17-115
+207                android:value="com.google.firebase.components.ComponentRegistrar" />
+207-->[com.google.firebase:firebase-crashlytics:18.3.2] /home/uphar/.jdks/caches/transforms-3/00eb6d5f1067f434370cdbc6a2283fc7/transformed/firebase-crashlytics-18.3.2/AndroidManifest.xml:19:17-82
+208            <meta-data
+208-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/uphar/.jdks/caches/transforms-3/f32b52c1e1675f6f57d7ebd3c238e719/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
+209                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+209-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/uphar/.jdks/caches/transforms-3/f32b52c1e1675f6f57d7ebd3c238e719/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:32:17-139
+210                android:value="com.google.firebase.components.ComponentRegistrar" />
+210-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/uphar/.jdks/caches/transforms-3/f32b52c1e1675f6f57d7ebd3c238e719/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:33:17-82
+211            <meta-data
+211-->[com.google.firebase:firebase-installations:17.1.0] /home/uphar/.jdks/caches/transforms-3/6f83951c1271dceb4fbff09f83170f07/transformed/firebase-installations-17.1.0/AndroidManifest.xml:17:13-19:85
+212                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+212-->[com.google.firebase:firebase-installations:17.1.0] /home/uphar/.jdks/caches/transforms-3/6f83951c1271dceb4fbff09f83170f07/transformed/firebase-installations-17.1.0/AndroidManifest.xml:18:17-127
+213                android:value="com.google.firebase.components.ComponentRegistrar" />
+213-->[com.google.firebase:firebase-installations:17.1.0] /home/uphar/.jdks/caches/transforms-3/6f83951c1271dceb4fbff09f83170f07/transformed/firebase-installations-17.1.0/AndroidManifest.xml:19:17-82
+214        </service>
+215
+216        <activity
+216-->[com.google.android.gms:play-services-auth:20.3.0] /home/uphar/.jdks/caches/transforms-3/28daa0a30f3366e02e94f1f8d154fa24/transformed/play-services-auth-20.3.0/AndroidManifest.xml:23:9-27:75
+217            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+217-->[com.google.android.gms:play-services-auth:20.3.0] /home/uphar/.jdks/caches/transforms-3/28daa0a30f3366e02e94f1f8d154fa24/transformed/play-services-auth-20.3.0/AndroidManifest.xml:24:13-93
+218            android:excludeFromRecents="true"
+218-->[com.google.android.gms:play-services-auth:20.3.0] /home/uphar/.jdks/caches/transforms-3/28daa0a30f3366e02e94f1f8d154fa24/transformed/play-services-auth-20.3.0/AndroidManifest.xml:25:13-46
+219            android:exported="false"
+219-->[com.google.android.gms:play-services-auth:20.3.0] /home/uphar/.jdks/caches/transforms-3/28daa0a30f3366e02e94f1f8d154fa24/transformed/play-services-auth-20.3.0/AndroidManifest.xml:26:13-37
+220            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+220-->[com.google.android.gms:play-services-auth:20.3.0] /home/uphar/.jdks/caches/transforms-3/28daa0a30f3366e02e94f1f8d154fa24/transformed/play-services-auth-20.3.0/AndroidManifest.xml:27:13-72
+221        <!--
+222            Service handling Google Sign-In user revocation. For apps that do not integrate with
+223            Google Sign-In, this service will never be started.
+224        -->
+225        <service
+225-->[com.google.android.gms:play-services-auth:20.3.0] /home/uphar/.jdks/caches/transforms-3/28daa0a30f3366e02e94f1f8d154fa24/transformed/play-services-auth-20.3.0/AndroidManifest.xml:33:9-37:51
+226            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+226-->[com.google.android.gms:play-services-auth:20.3.0] /home/uphar/.jdks/caches/transforms-3/28daa0a30f3366e02e94f1f8d154fa24/transformed/play-services-auth-20.3.0/AndroidManifest.xml:34:13-89
+227            android:exported="true"
+227-->[com.google.android.gms:play-services-auth:20.3.0] /home/uphar/.jdks/caches/transforms-3/28daa0a30f3366e02e94f1f8d154fa24/transformed/play-services-auth-20.3.0/AndroidManifest.xml:35:13-36
+228            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+228-->[com.google.android.gms:play-services-auth:20.3.0] /home/uphar/.jdks/caches/transforms-3/28daa0a30f3366e02e94f1f8d154fa24/transformed/play-services-auth-20.3.0/AndroidManifest.xml:36:13-107
+229            android:visibleToInstantApps="true" />
+229-->[com.google.android.gms:play-services-auth:20.3.0] /home/uphar/.jdks/caches/transforms-3/28daa0a30f3366e02e94f1f8d154fa24/transformed/play-services-auth-20.3.0/AndroidManifest.xml:37:13-48
+230
+231        <activity
+231-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
+232            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+232-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
+233            android:excludeFromRecents="true"
+233-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
+234            android:exported="true"
+234-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
+235            android:launchMode="singleTask"
+235-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
+236            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+236-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
+237            <intent-filter>
+237-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
+238                <action android:name="android.intent.action.VIEW" />
+238-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+238-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+239
+240                <category android:name="android.intent.category.DEFAULT" />
+240-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+240-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+241                <category android:name="android.intent.category.BROWSABLE" />
+241-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+241-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+242
+243                <data
+243-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+244                    android:host="firebase.auth"
+244-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+245                    android:path="/"
+245-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+246                    android:scheme="genericidp" />
+246-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+247            </intent-filter>
+248        </activity>
+249        <activity
+249-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
+250            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+250-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
+251            android:excludeFromRecents="true"
+251-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
+252            android:exported="true"
+252-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
+253            android:launchMode="singleTask"
+253-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
+254            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+254-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
+255            <intent-filter>
+255-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
+256                <action android:name="android.intent.action.VIEW" />
+256-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+256-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+257
+258                <category android:name="android.intent.category.DEFAULT" />
+258-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+258-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+259                <category android:name="android.intent.category.BROWSABLE" />
+259-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+259-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+260
+261                <data
+261-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+262                    android:host="firebase.auth"
+262-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+263                    android:path="/"
+263-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+264                    android:scheme="recaptcha" />
+264-->[com.google.firebase:firebase-auth:21.1.0] /home/uphar/.jdks/caches/transforms-3/a9c9f5dfe47f3b5e79f3481e7064caf4/transformed/firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+265            </intent-filter>
+266        </activity>
+267
+268        <service
+268-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /home/uphar/.jdks/caches/transforms-3/cd80ef4334cf5634337b0d750ceda834/transformed/play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:9:9-15:19
+269            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+269-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /home/uphar/.jdks/caches/transforms-3/cd80ef4334cf5634337b0d750ceda834/transformed/play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:10:13-91
+270            android:directBootAware="true"
+270-->[com.google.mlkit:common:18.8.0] /home/uphar/.jdks/caches/transforms-3/61c932b184c746debcd358172d7205a6/transformed/common-18.8.0/AndroidManifest.xml:17:13-43
+271            android:exported="false" >
+271-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /home/uphar/.jdks/caches/transforms-3/cd80ef4334cf5634337b0d750ceda834/transformed/play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:11:13-37
+272            <meta-data
+272-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /home/uphar/.jdks/caches/transforms-3/cd80ef4334cf5634337b0d750ceda834/transformed/play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:12:13-14:85
+273                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+273-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /home/uphar/.jdks/caches/transforms-3/cd80ef4334cf5634337b0d750ceda834/transformed/play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:13:17-114
+274                android:value="com.google.firebase.components.ComponentRegistrar" />
+274-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /home/uphar/.jdks/caches/transforms-3/cd80ef4334cf5634337b0d750ceda834/transformed/play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:14:17-82
+275            <meta-data
+275-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /home/uphar/.jdks/caches/transforms-3/d3aec3a6c9224a00cf88253c4413a9f7/transformed/play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:12:13-14:85
+276                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+276-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /home/uphar/.jdks/caches/transforms-3/d3aec3a6c9224a00cf88253c4413a9f7/transformed/play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:13:17-114
+277                android:value="com.google.firebase.components.ComponentRegistrar" />
+277-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /home/uphar/.jdks/caches/transforms-3/d3aec3a6c9224a00cf88253c4413a9f7/transformed/play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:14:17-82
+278            <meta-data
+278-->[com.google.mlkit:vision-common:17.3.0] /home/uphar/.jdks/caches/transforms-3/0a186b6f5ad37a7c6d79cb2a2aa35a56/transformed/vision-common-17.3.0/AndroidManifest.xml:12:13-14:85
+279                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+279-->[com.google.mlkit:vision-common:17.3.0] /home/uphar/.jdks/caches/transforms-3/0a186b6f5ad37a7c6d79cb2a2aa35a56/transformed/vision-common-17.3.0/AndroidManifest.xml:13:17-124
+280                android:value="com.google.firebase.components.ComponentRegistrar" />
+280-->[com.google.mlkit:vision-common:17.3.0] /home/uphar/.jdks/caches/transforms-3/0a186b6f5ad37a7c6d79cb2a2aa35a56/transformed/vision-common-17.3.0/AndroidManifest.xml:14:17-82
+281            <meta-data
+281-->[com.google.mlkit:common:18.8.0] /home/uphar/.jdks/caches/transforms-3/61c932b184c746debcd358172d7205a6/transformed/common-18.8.0/AndroidManifest.xml:20:13-22:85
+282                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+282-->[com.google.mlkit:common:18.8.0] /home/uphar/.jdks/caches/transforms-3/61c932b184c746debcd358172d7205a6/transformed/common-18.8.0/AndroidManifest.xml:21:17-120
+283                android:value="com.google.firebase.components.ComponentRegistrar" />
+283-->[com.google.mlkit:common:18.8.0] /home/uphar/.jdks/caches/transforms-3/61c932b184c746debcd358172d7205a6/transformed/common-18.8.0/AndroidManifest.xml:22:17-82
+284        </service>
+285
+286        <provider
+286-->[com.google.mlkit:common:18.8.0] /home/uphar/.jdks/caches/transforms-3/61c932b184c746debcd358172d7205a6/transformed/common-18.8.0/AndroidManifest.xml:9:9-13:38
+287            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+287-->[com.google.mlkit:common:18.8.0] /home/uphar/.jdks/caches/transforms-3/61c932b184c746debcd358172d7205a6/transformed/common-18.8.0/AndroidManifest.xml:10:13-78
+288            android:authorities="com.example.infuxion_alternate.mlkitinitprovider"
+288-->[com.google.mlkit:common:18.8.0] /home/uphar/.jdks/caches/transforms-3/61c932b184c746debcd358172d7205a6/transformed/common-18.8.0/AndroidManifest.xml:11:13-69
+289            android:exported="false"
+289-->[com.google.mlkit:common:18.8.0] /home/uphar/.jdks/caches/transforms-3/61c932b184c746debcd358172d7205a6/transformed/common-18.8.0/AndroidManifest.xml:12:13-37
+290            android:initOrder="99" />
+290-->[com.google.mlkit:common:18.8.0] /home/uphar/.jdks/caches/transforms-3/61c932b184c746debcd358172d7205a6/transformed/common-18.8.0/AndroidManifest.xml:13:13-35
+291
+292        <activity
+292-->[com.google.android.gms:play-services-base:18.1.0] /home/uphar/.jdks/caches/transforms-3/3346c63f2031682fcf2ad22540ddc92f/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+293            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+293-->[com.google.android.gms:play-services-base:18.1.0] /home/uphar/.jdks/caches/transforms-3/3346c63f2031682fcf2ad22540ddc92f/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+294            android:exported="false"
+294-->[com.google.android.gms:play-services-base:18.1.0] /home/uphar/.jdks/caches/transforms-3/3346c63f2031682fcf2ad22540ddc92f/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+295            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+295-->[com.google.android.gms:play-services-base:18.1.0] /home/uphar/.jdks/caches/transforms-3/3346c63f2031682fcf2ad22540ddc92f/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+296
+297        <provider
+297-->[com.google.firebase:firebase-common:20.2.0] /home/uphar/.jdks/caches/transforms-3/7eb133c31fb1ca8b58bb71aec4d78f6d/transformed/firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+298            android:name="com.google.firebase.provider.FirebaseInitProvider"
+298-->[com.google.firebase:firebase-common:20.2.0] /home/uphar/.jdks/caches/transforms-3/7eb133c31fb1ca8b58bb71aec4d78f6d/transformed/firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+299            android:authorities="com.example.infuxion_alternate.firebaseinitprovider"
+299-->[com.google.firebase:firebase-common:20.2.0] /home/uphar/.jdks/caches/transforms-3/7eb133c31fb1ca8b58bb71aec4d78f6d/transformed/firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+300            android:directBootAware="true"
+300-->[com.google.firebase:firebase-common:20.2.0] /home/uphar/.jdks/caches/transforms-3/7eb133c31fb1ca8b58bb71aec4d78f6d/transformed/firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+301            android:exported="false"
+301-->[com.google.firebase:firebase-common:20.2.0] /home/uphar/.jdks/caches/transforms-3/7eb133c31fb1ca8b58bb71aec4d78f6d/transformed/firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+302            android:initOrder="100" />
+302-->[com.google.firebase:firebase-common:20.2.0] /home/uphar/.jdks/caches/transforms-3/7eb133c31fb1ca8b58bb71aec4d78f6d/transformed/firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+303
+304        <receiver
+304-->[com.google.android.gms:play-services-measurement:21.2.0] /home/uphar/.jdks/caches/transforms-3/81f3c4c488eb1edf4b74f4a51ed75dcb/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:29:9-33:20
+305            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+305-->[com.google.android.gms:play-services-measurement:21.2.0] /home/uphar/.jdks/caches/transforms-3/81f3c4c488eb1edf4b74f4a51ed75dcb/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:30:13-85
+306            android:enabled="true"
+306-->[com.google.android.gms:play-services-measurement:21.2.0] /home/uphar/.jdks/caches/transforms-3/81f3c4c488eb1edf4b74f4a51ed75dcb/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:31:13-35
+307            android:exported="false" >
+307-->[com.google.android.gms:play-services-measurement:21.2.0] /home/uphar/.jdks/caches/transforms-3/81f3c4c488eb1edf4b74f4a51ed75dcb/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:32:13-37
+308        </receiver>
+309
+310        <service
+310-->[com.google.android.gms:play-services-measurement:21.2.0] /home/uphar/.jdks/caches/transforms-3/81f3c4c488eb1edf4b74f4a51ed75dcb/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:35:9-38:40
+311            android:name="com.google.android.gms.measurement.AppMeasurementService"
+311-->[com.google.android.gms:play-services-measurement:21.2.0] /home/uphar/.jdks/caches/transforms-3/81f3c4c488eb1edf4b74f4a51ed75dcb/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:36:13-84
+312            android:enabled="true"
+312-->[com.google.android.gms:play-services-measurement:21.2.0] /home/uphar/.jdks/caches/transforms-3/81f3c4c488eb1edf4b74f4a51ed75dcb/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:37:13-35
+313            android:exported="false" />
+313-->[com.google.android.gms:play-services-measurement:21.2.0] /home/uphar/.jdks/caches/transforms-3/81f3c4c488eb1edf4b74f4a51ed75dcb/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:38:13-37
+314        <service
+314-->[com.google.android.gms:play-services-measurement:21.2.0] /home/uphar/.jdks/caches/transforms-3/81f3c4c488eb1edf4b74f4a51ed75dcb/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:39:9-43:72
+315            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+315-->[com.google.android.gms:play-services-measurement:21.2.0] /home/uphar/.jdks/caches/transforms-3/81f3c4c488eb1edf4b74f4a51ed75dcb/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:40:13-87
+316            android:enabled="true"
+316-->[com.google.android.gms:play-services-measurement:21.2.0] /home/uphar/.jdks/caches/transforms-3/81f3c4c488eb1edf4b74f4a51ed75dcb/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:41:13-35
+317            android:exported="false"
+317-->[com.google.android.gms:play-services-measurement:21.2.0] /home/uphar/.jdks/caches/transforms-3/81f3c4c488eb1edf4b74f4a51ed75dcb/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:42:13-37
+318            android:permission="android.permission.BIND_JOB_SERVICE" />
+318-->[com.google.android.gms:play-services-measurement:21.2.0] /home/uphar/.jdks/caches/transforms-3/81f3c4c488eb1edf4b74f4a51ed75dcb/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:43:13-69
+319
+320        <meta-data
+320-->[com.google.android.gms:play-services-basement:18.1.0] /home/uphar/.jdks/caches/transforms-3/96958db24f10bd35fd82ac3e3345faa8/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+321            android:name="com.google.android.gms.version"
+321-->[com.google.android.gms:play-services-basement:18.1.0] /home/uphar/.jdks/caches/transforms-3/96958db24f10bd35fd82ac3e3345faa8/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+322            android:value="@integer/google_play_services_version" />
+322-->[com.google.android.gms:play-services-basement:18.1.0] /home/uphar/.jdks/caches/transforms-3/96958db24f10bd35fd82ac3e3345faa8/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+323
+324        <uses-library
+324-->[androidx.window:window:1.0.0] /home/uphar/.jdks/caches/transforms-3/9ca062ced209d13eca06a3444420180f/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+325            android:name="androidx.window.extensions"
+325-->[androidx.window:window:1.0.0] /home/uphar/.jdks/caches/transforms-3/9ca062ced209d13eca06a3444420180f/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+326            android:required="false" />
+326-->[androidx.window:window:1.0.0] /home/uphar/.jdks/caches/transforms-3/9ca062ced209d13eca06a3444420180f/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+327        <uses-library
+327-->[androidx.window:window:1.0.0] /home/uphar/.jdks/caches/transforms-3/9ca062ced209d13eca06a3444420180f/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+328            android:name="androidx.window.sidecar"
+328-->[androidx.window:window:1.0.0] /home/uphar/.jdks/caches/transforms-3/9ca062ced209d13eca06a3444420180f/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+329            android:required="false" />
+329-->[androidx.window:window:1.0.0] /home/uphar/.jdks/caches/transforms-3/9ca062ced209d13eca06a3444420180f/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+330
+331        <provider
+331-->[androidx.emoji2:emoji2:1.2.0] /home/uphar/.jdks/caches/transforms-3/36123fd79072a3ca819b510c1560acf5/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+332            android:name="androidx.startup.InitializationProvider"
+332-->[androidx.emoji2:emoji2:1.2.0] /home/uphar/.jdks/caches/transforms-3/36123fd79072a3ca819b510c1560acf5/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+333            android:authorities="com.example.infuxion_alternate.androidx-startup"
+333-->[androidx.emoji2:emoji2:1.2.0] /home/uphar/.jdks/caches/transforms-3/36123fd79072a3ca819b510c1560acf5/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+334            android:exported="false" >
+334-->[androidx.emoji2:emoji2:1.2.0] /home/uphar/.jdks/caches/transforms-3/36123fd79072a3ca819b510c1560acf5/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+335            <meta-data
+335-->[androidx.emoji2:emoji2:1.2.0] /home/uphar/.jdks/caches/transforms-3/36123fd79072a3ca819b510c1560acf5/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+336                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+336-->[androidx.emoji2:emoji2:1.2.0] /home/uphar/.jdks/caches/transforms-3/36123fd79072a3ca819b510c1560acf5/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+337                android:value="androidx.startup" />
+337-->[androidx.emoji2:emoji2:1.2.0] /home/uphar/.jdks/caches/transforms-3/36123fd79072a3ca819b510c1560acf5/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+338            <meta-data
+338-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/uphar/.jdks/caches/transforms-3/d0794e5d0ecf462732b1eb4cddc0974f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+339                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+339-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/uphar/.jdks/caches/transforms-3/d0794e5d0ecf462732b1eb4cddc0974f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+340                android:value="androidx.startup" />
+340-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/uphar/.jdks/caches/transforms-3/d0794e5d0ecf462732b1eb4cddc0974f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+341        </provider>
+342
+343        <service
+343-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/uphar/.jdks/caches/transforms-3/32cb1340abfd453f581c2c9676ed5283/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+344            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+344-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/uphar/.jdks/caches/transforms-3/32cb1340abfd453f581c2c9676ed5283/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+345            android:exported="false" >
+345-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/uphar/.jdks/caches/transforms-3/32cb1340abfd453f581c2c9676ed5283/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+346            <meta-data
+346-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/uphar/.jdks/caches/transforms-3/32cb1340abfd453f581c2c9676ed5283/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+347                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+347-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/uphar/.jdks/caches/transforms-3/32cb1340abfd453f581c2c9676ed5283/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+348                android:value="cct" />
+348-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/uphar/.jdks/caches/transforms-3/32cb1340abfd453f581c2c9676ed5283/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+349        </service>
+350        <service
+350-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/uphar/.jdks/caches/transforms-3/86b5e0f9b2f1041353bb05ec6b7e0265/transformed/transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+351            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+351-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/uphar/.jdks/caches/transforms-3/86b5e0f9b2f1041353bb05ec6b7e0265/transformed/transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+352            android:exported="false"
+352-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/uphar/.jdks/caches/transforms-3/86b5e0f9b2f1041353bb05ec6b7e0265/transformed/transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+353            android:permission="android.permission.BIND_JOB_SERVICE" >
+353-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/uphar/.jdks/caches/transforms-3/86b5e0f9b2f1041353bb05ec6b7e0265/transformed/transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+354        </service>
+355
+356        <receiver
+356-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/uphar/.jdks/caches/transforms-3/86b5e0f9b2f1041353bb05ec6b7e0265/transformed/transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+357            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+357-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/uphar/.jdks/caches/transforms-3/86b5e0f9b2f1041353bb05ec6b7e0265/transformed/transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+358            android:exported="false" />
+358-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/uphar/.jdks/caches/transforms-3/86b5e0f9b2f1041353bb05ec6b7e0265/transformed/transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+359    </application>
+360
+361</manifest>

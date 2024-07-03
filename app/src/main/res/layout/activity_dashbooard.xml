@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Balance and Expense Section -->
+        <RelativeLayout
+            android:id="@+id/balance_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:background="@color/colorPrimary">
+
+            <ImageView
+                android:id="@+id/user_profile_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/allow_permission" />
+
+            <Button
+                android:id="@+id/new_expense"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Expense"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:id="@+id/total_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total balance"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+                android:layout_below="@id/user_profile_image"
+                android:layout_marginTop="16dp" />
+
+            <TextView
+                android:id="@+id/balance_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$2400.00"
+                android:textSize="32sp"
+                android:textColor="@android:color/white"
+                android:layout_below="@id/total_balance" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/balance_amount"
+                android:layout_marginTop="16dp">
+
+                <TextView
+                    android:id="@+id/you_owe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="You owe"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/you_owe_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$145.00"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/white"
+                    android:layout_marginStart="8dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/balance_amount"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="150dp">
+
+                <TextView
+                    android:id="@+id/owes_you"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Owes you"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/owes_you_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$76.00"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/white"
+                    android:layout_marginStart="8dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!-- Recent Transactions Section -->
+        <RelativeLayout
+            android:id="@+id/recent_transactions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/recent_transactions_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recent transactions"
+                android:textSize="16sp"
+                android:textColor="@android:color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/recent_transactions_label"
+                android:layout_marginTop="8dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="8dp"
+                    android:background="@drawable/edit_text_square_rounded">
+
+                    <TextView
+                        android:id="@+id/recent_transaction_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Trip"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="You owe $460.00"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="8dp"
+                    android:background="@drawable/edit_text_square_rounded"
+                    android:layout_marginStart="8dp">
+
+                    <TextView
+                        android:id="@+id/recent_transaction_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kayak"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="You owe $20.00"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="8dp"
+                    android:background="@drawable/edit_text_square_rounded"
+                    android:layout_marginStart="8dp">
+
+                    <TextView
+                        android:id="@+id/recent_transaction_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Movie"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Owes you $76.00"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!-- Group Cost Section -->
+        <RelativeLayout
+            android:id="@+id/group_cost_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/group_cost_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Group cost"
+                android:textSize="16sp"
+                android:textColor="@android:color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@id/group_cost_label"
+                android:layout_marginTop="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="8dp"
+                    android:background="@drawable/edit_text_square_rounded">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/manwithphone" />
+
+                    <TextView
+                        android:id="@+id/group_cost_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:text="Earl e phant"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$460.00"
+                        android:layout_alignParentEnd="true"
+                        android:textSize="14sp"
+                        android:layout_marginStart="@dimen/_2sdp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="8dp"
+                    android:background="@drawable/edit_text_square_rounded"
+                    android:layout_marginTop="8dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_wantloan" />
+
+                    <TextView
+                        android:id="@+id/group_cost_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:text="Tan France"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$460.00"
+                        android:layout_alignParentEnd="true"
+                        android:textSize="14sp"
+                        android:layout_marginStart="@dimen/_2sdp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="8dp"
+                    android:background="@drawable/edit_text_square_rounded"
+                    android:layout_marginTop="8dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/manwithphone" />
+
+                    <TextView
+                        android:id="@+id/group_cost_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:text="Dmitri Kharchenko"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$460.00"
+                        android:layout_alignParentEnd="true"
+                        android:textSize="14sp"
+                        android:layout_marginStart="@dimen/_2sdp" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="size_of_pindot">20dp</dimen>
+    <dimen name="numpad_margin">1dp</dimen>
+    <dimen name="page_left_margin">20dp</dimen>
+    <dimen name="page_right_margin">20dp</dimen>
+    <dimen name="dmsans_regular_12">12sp</dimen>
+
+
+
+</resources>

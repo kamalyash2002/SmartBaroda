@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".register.RegistrationBridge">
+
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/img_pin_icon"
+                android:layout_width="200dp"
+                android:layout_height="240dp"
+
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/register_ask" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:padding="16dp"
+                style="@style/dmsans_bold_26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_fingerprint_icon"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="20dp"
+                android:text="@string/want_to_register"
+                android:textColor="@color/black" />
+
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginHorizontal="37dp"
+                android:background="@drawable/bg_violet_corner_10">
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/buttonYes"
+
+                    style="@style/ButtonBigVioletTheme"
+                    android:layout_width="260dp"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/dmsans_bold"
+                    android:text="@string/yes" />
+
+            </RelativeLayout>
+
+
+
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginHorizontal="37dp"
+                android:background="@drawable/bg_light_violet_corner_10">
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/buttonNo"
+
+                    style="@style/ButtonBigDeselectedVioletTheme"
+                    android:layout_width="260dp"
+                    android:layout_centerInParent="true"
+                    android:background="@color/colorSecondary"
+                    android:fontFamily="@font/dmsans_bold"
+                    android:text="@string/no"
+                    android:textColor="@color/colorPrimary" />
+
+
+            </RelativeLayout>
+
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

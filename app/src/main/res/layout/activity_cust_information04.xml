@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".customerinfo.CustInformation04"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp">
+
+        <RelativeLayout
+            android:id="@+id/rlTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/tvHeadOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/overpass_semibold"
+                android:text="@string/customer_heading_four"
+                android:textColor="#333333"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+
+
+
+            <!--            #1 Loan Cycle No.-->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="6dp"
+                android:fontFamily="@font/overpass_medium"
+                android:text="Occupation"
+                android:textColor="#333"
+                android:textSize="14sp" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="2dp"
+                app:cardUseCompatPadding="true"
+                >
+                <RadioGroup
+                    android:id="@+id/rgOccupation"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/salaried"
+                        android:textSize="12sp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Salaried"
+                        android:textColor="#5C5C5C" />
+
+                    <RadioButton
+                        android:id="@+id/selfEmployed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Self Employed"
+                        android:textSize="12sp"
+                        android:textColor="#5C5C5C"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/selfEmployedProfessional"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Self Employed Professional"
+                        android:textSize="12sp"
+                        android:textColor="#5C5C5C"
+                        />
+                    <RadioButton
+                        android:id="@+id/retired"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Retired"
+                        android:textSize="12sp"
+                        android:textColor="#5C5C5C"
+                        />
+                    <RadioButton
+                        android:id="@+id/housewife"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Housewife"
+                        android:textSize="12sp"
+                        android:textColor="#5C5C5C"
+                        />
+                    <RadioButton
+                        android:id="@+id/student"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Student"
+                        android:textSize="12sp"
+                        android:textColor="#5C5C5C"
+                        />
+
+                </RadioGroup>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <!--            #2 Salutation -->
+
+      <LinearLayout
+          android:id="@+id/linearLayoutSelfProfessional"
+          android:visibility="gone"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+          <TextView
+
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+
+              android:layout_marginBottom="6dp"
+              android:fontFamily="@font/overpass_medium"
+              android:text="If self employed professional"
+              android:textColor="#333"
+              android:textSize="14sp" />
+
+
+
+
+          <androidx.cardview.widget.CardView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:cardElevation="2dp"
+              app:cardUseCompatPadding="true"
+              >
+
+              <RadioGroup
+                  android:id="@+id/rgIfSelfProf"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:layout_weight="1">
+
+                  <RadioButton
+                      android:id="@+id/doctor"
+                      android:textSize="12sp"
+
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:text="Doctor"
+                      android:textColor="#5C5C5C" />
+
+                  <RadioButton
+                      android:id="@+id/ca"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:text="Ca/CS"
+                      android:textSize="12sp"
+                      android:textColor="#5C5C5C"
+                      />
+
+                  <RadioButton
+                      android:id="@+id/consultant"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:text="Consultant"
+                      android:textSize="12sp"
+                      android:textColor="#5C5C5C"
+                      />
+                  <RadioButton
+                      android:id="@+id/freelancer"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:text="Freelancer"
+                      android:textSize="12sp"
+                      android:textColor="#5C5C5C"
+                      />
+                  <RadioButton
+                      android:id="@+id/architecht"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:text="Architecht"
+                      android:textSize="12sp"
+                      android:textColor="#5C5C5C"
+                      />
+                  <RadioButton
+                      android:id="@+id/others"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:text="Others"
+                      android:textSize="12sp"
+                      android:textColor="#5C5C5C"
+                      />
+
+
+              </RadioGroup>
+
+          </androidx.cardview.widget.CardView>
+
+
+      </LinearLayout>
+            <!--            #2 Salutation -->
+
+            <LinearLayout
+                android:id="@+id/linearLayoutSelfEm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="6dp"
+                    android:fontFamily="@font/overpass_medium"
+                    android:text="If self employed businessman:"
+                    android:textColor="#333"
+                    android:textSize="14sp" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="6dp"
+                    android:fontFamily="@font/overpass_medium"
+                    android:text="Type of Company"
+                    android:textColor="#333"
+                    android:textSize="14sp" />
+
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="2dp"
+                    app:cardUseCompatPadding="true"
+                    >
+
+                    <RadioGroup
+                        android:id="@+id/rgselfemb"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:textSize="12sp"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Pvt Ltd."
+                            android:textColor="#5C5C5C" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Partnership"
+                            android:textSize="12sp"
+                            android:textColor="#5C5C5C"
+                            />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Proprietor"
+                            android:textSize="12sp"
+                            android:textColor="#5C5C5C"
+                            />
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Public Ltd."
+                            android:textSize="12sp"
+                            android:textColor="#5C5C5C"
+                            /> <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Ltd. Liability Co."
+                        android:textSize="12sp"
+                        android:textColor="#5C5C5C"
+                        />
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Others"
+                            android:textSize="12sp"
+                            android:textColor="#5C5C5C"
+                            />
+
+
+                    </RadioGroup>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            <!--            #4 Mother's name -->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="6dp"
+                android:fontFamily="@font/overpass_medium"
+                android:text="If self employed / Salaried:"
+                android:textColor="#333"
+                android:textSize="14sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="6dp"
+                android:fontFamily="@font/overpass_medium"
+                android:text="Type of Company"
+                android:textColor="#333"
+                android:textSize="14sp" />
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="2dp"
+                app:cardUseCompatPadding="true"
+                >
+
+                <RadioGroup
+                    android:id="@+id/rges"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:textSize="12sp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Pvt Ltd."
+                        android:textColor="#5C5C5C" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Partnership"
+                        android:textSize="12sp"
+                        android:textColor="#5C5C5C"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Proprietor"
+                        android:textSize="12sp"
+                        android:textColor="#5C5C5C"
+                        />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Public Ltd."
+                        android:textSize="12sp"
+                        android:textColor="#5C5C5C"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Retailers"
+                        android:textSize="12sp"
+                        android:textColor="#5C5C5C"
+                        />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PSU"
+                        android:textSize="12sp"
+                        android:textColor="#5C5C5C"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Govt."
+                        android:textSize="12sp"
+                        android:textColor="#5C5C5C"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="MNC"
+                        android:textSize="12sp"
+                        android:textColor="#5C5C5C"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Others"
+                        android:textSize="12sp"
+                        android:textColor="#5C5C5C"
+                        />
+
+
+                </RadioGroup>
+
+            </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!--            #5 Pincode -->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="6dp"
+                android:fontFamily="@font/overpass_medium"
+                android:text="Type of Industry"
+                android:textColor="#333"
+                android:textSize="14sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="2dp"
+                app:cardUseCompatPadding="true"
+                >
+
+                <RadioGroup
+                    android:id="@+id/rgIndustry"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:textSize="12sp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Automobiles"
+                        android:textColor="#5C5C5C" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Agriculture based"
+                        android:textSize="12sp"
+                        android:textColor="#5C5C5C"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Banking"
+                        android:textSize="12sp"
+                        android:textColor="#5C5C5C"
+                        />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="BPO"
+                        android:textSize="12sp"
+                        android:textColor="#5C5C5C"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="IT"
+                        android:textSize="12sp"
+                        android:textColor="#5C5C5C"
+                        />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Capital Goods"
+                        android:textSize="12sp"
+                        android:textColor="#5C5C5C"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Telecom"
+                        android:textSize="12sp"
+                        android:textColor="#5C5C5C"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Real Estate"
+                        android:textSize="12sp"
+                        android:textColor="#5C5C5C"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Computer Durables"
+                        android:textSize="12sp"
+                        android:textColor="#5C5C5C"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="FMCG"
+                        android:textSize="12sp"
+                        android:textColor="#5C5C5C"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="NBFC"
+                        android:textSize="12sp"
+                        android:textColor="#5C5C5C"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Marketing/ Adv."
+                        android:textSize="12sp"
+                        android:textColor="#5C5C5C"
+                        />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Pharma"
+                        android:textSize="12sp"
+                        android:textColor="#5C5C5C"
+                        />  <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Media"
+                    android:textSize="12sp"
+                    android:textColor="#5C5C5C"
+                    />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Others"
+                        android:textSize="12sp"
+                        android:textColor="#5C5C5C"
+                        />
+
+
+                </RadioGroup>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <!--            #6 Nationality -->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="6dp"
+                android:fontFamily="@font/overpass_medium"
+                android:text="Exp in current Job / Business"
+                android:textColor="#333"
+                android:textSize="14sp" />
+
+                <EditText
+                    android:background="@drawable/edit_text_square_rounded"
+
+                    android:id="@+id/currentexp"
+
+                    android:hint="Enter years in numbers, e.g., 2."
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#3C444E"
+                    android:textSize="16sp"
+                    android:paddingLeft="20dp"
+
+                    android:paddingRight="20dp"
+                    android:inputType="number"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:fontFamily="@font/overpass_medium"
+                    android:gravity="start"
+
+                    />
+
+
+
+            <!--            #6 Nationality -->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="6dp"
+                android:fontFamily="@font/overpass_medium"
+                android:text="Total Exp in Job / Business (in years)"
+                android:textColor="#333"
+                android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/exp"
+
+                    android:hint="Enter years in numbers, e.g., 3."                    android:background="@drawable/edit_text_square_rounded"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#3C444E"
+                    android:textSize="16sp"
+                    android:paddingLeft="20dp"
+
+                    android:paddingRight="20dp"
+                    android:inputType="number"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:fontFamily="@font/overpass_medium"
+                    android:gravity="start"
+                    />
+
+
+
+
+
+            <!--            #7 Pan no. -->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="6dp"
+                android:fontFamily="@font/overpass_medium"
+                android:text="Company/Employers Name"
+                android:textColor="#333"
+                android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/companyname"
+                    android:background="@drawable/edit_text_square_rounded"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#3C444E"
+                    android:textSize="16sp"
+                    android:paddingLeft="20dp"
+
+                    android:paddingRight="20dp"
+                    android:inputType="number"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:fontFamily="@font/overpass_medium"
+                    android:gravity="start"
+                    />
+
+
+
+            <!--            #8 Aadhaar no. -->
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="6dp"
+                android:fontFamily="@font/overpass_medium"
+                android:text="Company/Employers Address"
+                android:textColor="#333"
+                android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/companyaddress"
+                    android:background="@drawable/edit_text_square_rounded"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#3C444E"
+                    android:textSize="16sp"
+                    android:paddingLeft="20dp"
+
+                    android:paddingRight="20dp"
+                    android:inputType="number"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:fontFamily="@font/overpass_medium"
+                    android:gravity="start"
+                    />
+
+
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="6dp"
+                android:fontFamily="@font/overpass_medium"
+                android:text="Salary (per annum)"
+                android:textColor="#333"
+                android:textSize="14sp" />
+
+
+                <EditText
+                    android:id="@+id/salary"
+                    android:background="@drawable/edit_text_square_rounded"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#3C444E"
+                    android:textSize="16sp"
+                    android:paddingLeft="20dp"
+
+                    android:paddingRight="20dp"
+                    android:inputType="number"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:fontFamily="@font/overpass_medium"
+                    android:hint="Enter your Salary in digits"
+                    android:gravity="start"
+                    />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnNext"
+                style="@style/ButtonBigVioletTheme"
+                android:layout_width="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/next" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

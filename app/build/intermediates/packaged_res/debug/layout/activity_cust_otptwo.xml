@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".customerinfo.CustOTPTwo">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rev_black"
+        android:backgroundTint="@color/colorSecondary"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="70dp"
+
+            android:background="@drawable/rev_black"
+            android:backgroundTint="@color/white"
+            android:orientation="vertical">
+
+            <!--           begins-->
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="@font/overpass_semibold"
+                android:text="Authenticate Identity"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="22sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom"
+                android:orientation="vertical"
+                android:paddingBottom="30dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="35dp"
+                    android:text="An OTP is sent on your phone number "
+                    android:textColor="#5C5C5C"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvOTtpHeading"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="35dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="14sp"
+                    android:text="OTP"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/primaryGray"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/otpLayout"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:textAlignment="center">
+
+                    <EditText
+                        android:id="@+id/editTextTextPassword"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/edit_circle"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:importantForAutofill="no"
+                        android:inputType="phone"
+                        android:maxLength="1"
+                        android:nextFocusForward="@id/editTextTextPassword2"
+                        android:textColor="@color/black"
+                        tools:ignore="labelFor" />
+
+                    <EditText
+                        android:id="@+id/editTextTextPassword2"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/edit_circle"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:importantForAutofill="no"
+                        android:inputType="phone"
+                        android:maxLength="1"
+                        android:nextFocusForward="@id/editTextTextPassword3"
+                        android:textColor="@color/black"
+                        tools:ignore="labelFor" />
+
+                    <EditText
+                        android:id="@+id/editTextTextPassword3"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/edit_circle"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:importantForAutofill="no"
+                        android:inputType="phone"
+                        android:maxLength="1"
+                        android:nextFocusForward="@id/editTextTextPassword4"
+                        android:textColor="@color/black"
+                        tools:ignore="labelFor" />
+
+                    <EditText
+                        android:id="@+id/editTextTextPassword4"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/edit_circle"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:importantForAutofill="no"
+                        android:inputType="phone"
+                        android:maxLength="1"
+                        android:nextFocusForward="@id/editTextTextPassword5"
+                        android:textColor="@color/black"
+                        tools:ignore="labelFor" />
+
+                    <EditText
+                        android:id="@+id/editTextTextPassword5"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/edit_circle"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:importantForAutofill="no"
+                        android:inputType="phone"
+                        android:maxLength="1"
+                        android:nextFocusForward="@id/editTextTextPassword6"
+                        android:textColor="@color/black"
+                        tools:ignore="labelFor" />
+
+                    <EditText
+                        android:id="@+id/editTextTextPassword6"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/edit_circle"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:importantForAutofill="no"
+                        android:inputType="phone"
+                        android:maxLength="1"
+                        android:textColor="@color/black"
+                        tools:ignore="labelFor" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:gravity="end">
+
+                    <!--                <TextView-->
+                    <!--                    android:layout_width="wrap_content"-->
+                    <!--                    android:layout_height="wrap_content"-->
+                    <!--                    android:fontFamily="@font/overpass_medium"-->
+                    <!--                    android:paddingLeft="50dp"-->
+                    <!--                    android:text="Resend again in "-->
+                    <!--                    android:textAlignment="viewStart"-->
+                    <!--                    android:textColor="#5C5C5C"-->
+                    <!--                    android:textSize="14sp" />-->
+
+                    <TextView
+                        android:id="@+id/countDown"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/overpass_medium"
+                        android:textAlignment="viewEnd"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    android:paddingBottom="30dp">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btnOtp"
+                        style="@style/ButtonBigVioletTheme"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginHorizontal="37dp"
+                        android:layout_marginTop="67dp"
+                        android:layout_marginBottom="16dp"
+                        android:enabled="false"
+
+                        android:text="@string/proceed_further" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AcceptPrivacyPolicy"
+    android:orientation="vertical">
+
+
+    <!--New Design -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@id/rlTitle">
+
+        <ScrollView
+            android:id="@+id/svPP"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingEnd="8dp"
+            android:scrollbarSize="5dp"
+            android:scrollbarThumbVertical="@color/violet"
+            android:scrollbarTrackVertical="@color/gray_d9D9D9">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/page_left_margin"
+                android:layout_marginEnd="@dimen/page_right_margin"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/dmsans_bold_26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="37dp"
+                    android:text="@string/privacy_policy"
+                    android:textColor="@color/blue" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/dmsans_regular_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="9dp"
+                    android:text="@string/last_updated_date_time"
+                    android:textColor="@color/gray_text" />
+
+                <!--introduction-->
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/dmsans_bold_18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="39dp"
+                    android:text="@string/introduction" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/dmsans_regular_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:text="@string/introduction_desc"
+                    android:textColor="@color/gray_text" />
+
+                <!--collection of personal information-->
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/dmsans_bold_18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="@string/collection_of_personal_information" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/dmsans_regular_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:text="@string/collection_of_personal_information_desc"
+                    android:textColor="@color/gray_text" />
+
+                <!--use and sharing of personal information-->
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/dmsans_bold_18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="@string/use_and_sharing_of_personal_information" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/dmsans_regular_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:text="@string/use_and_sharing_of_personal_information_desc"
+                    android:textColor="@color/gray_text" />
+
+                <!--data security-->
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/dmsans_bold_18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="@string/data_security" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/dmsans_regular_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:text="@string/data_security_desc"
+                    android:textColor="@color/gray_text" />
+
+                <!--your rights-->
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/dmsans_bold_18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="@string/your_rights" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/dmsans_regular_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:text="@string/your_rights_desc"
+                    android:textColor="@color/gray_text" />
+
+                <!--change to or privacy policy-->
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/dmsans_bold_18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="@string/changes_to_our_privacy_policy" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/dmsans_regular_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:text="@string/changes_to_our_privacy_policy_desc"
+                    android:textColor="@color/gray_text" />
+
+                <!--contact us-->
+                <!--todo need to check it is not showing until we kept margin bottom -->
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/dmsans_bold_18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="@string/contact_us" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/dmsans_regular_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="120dp"
+                    android:text="@string/contact_us_desc"
+                    android:textColor="@color/gray_text" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:paddingEnd="8dp"
+            android:background="@color/white">
+            <!--
+            android:paddingStart="6dp"-->
+
+
+            <RelativeLayout
+                android:id="@+id/btnAllowPermissions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginStart="@dimen/page_left_margin"
+                android:layout_marginEnd="@dimen/page_right_margin">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/buttonLabel"
+                    style="@style/ButtonBigVioletTheme"
+                    android:layout_width="match_parent"
+                    android:backgroundTint="#A59EEB"
+                    android:enabled="false"
+                    android:text="@string/pp_tc_accept" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
+

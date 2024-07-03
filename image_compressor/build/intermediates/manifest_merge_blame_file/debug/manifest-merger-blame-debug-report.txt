@@ -1,0 +1,11 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="id.zelory.compressor" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="14"
+6-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/image_compressor/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="33" />
+7-->/home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/image_compressor/src/main/AndroidManifest.xml
+8
+9</manifest>

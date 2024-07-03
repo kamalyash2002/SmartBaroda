@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register.LoginPhoneOtp">
+
+    <ImageView
+        android:id="@+id/ivEmailFile"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/ic_otpsecurity" />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="50dp">
+
+            <!--           begins-->
+
+
+            <TextView
+                android:id="@+id/tvHeadOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/overpass_semibold"
+                android:text="Enter OTP"
+                android:textColor="#7C777B"
+                android:textSize="32sp" />
+
+
+
+
+
+            <TextView
+                android:id="@+id/countDown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="40dp"
+                android:fontFamily="@font/overpass_medium"
+                android:paddingLeft="14dp"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:text="Resend OTP"
+                />
+
+
+            <LinearLayout
+                android:id="@+id/otpLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:textAlignment="center"
+                >
+
+                <EditText
+                    android:id="@+id/editTextTextPassword"
+                    android:layout_width="35dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/otp"
+
+                    android:ems="10"
+                    android:textSize="20sp"
+                    android:textColor="#555555"
+                    android:fontFamily="@font/overpass_semibold"
+                    android:gravity="center"
+                    android:imeOptions="actionNext"
+                    android:importantForAutofill="no"
+                    android:inputType="phone"
+                    android:maxLength="1"
+                    android:nextFocusForward="@id/editTextTextPassword2"
+                    tools:ignore="labelFor" />
+
+                <EditText
+                    android:id="@+id/editTextTextPassword2"
+                    android:layout_width="35dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/otp"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:imeOptions="actionNext"
+                    android:importantForAutofill="no"
+                    android:inputType="phone"
+                    android:maxLength="1"
+                    android:nextFocusForward="@id/editTextTextPassword3"
+                    android:textSize="20sp"
+                    android:textColor="#555555"
+                    android:fontFamily="@font/overpass_semibold"
+                    tools:ignore="labelFor" />
+
+
+                <EditText
+                    android:id="@+id/editTextTextPassword3"
+                    android:layout_width="35dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/otp"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:imeOptions="actionNext"
+                    android:importantForAutofill="no"
+                    android:inputType="phone"
+                    android:maxLength="1"
+                    android:nextFocusForward="@id/editTextTextPassword4"
+                    android:textSize="20sp"
+                    android:textColor="#555555"
+                    android:fontFamily="@font/overpass_semibold"
+                    tools:ignore="labelFor" />
+
+
+                <EditText
+                    android:id="@+id/editTextTextPassword4"
+                    android:layout_width="35dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/otp"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:imeOptions="actionNext"
+                    android:importantForAutofill="no"
+                    android:inputType="phone"
+                    android:maxLength="1"
+                    android:nextFocusForward="@id/editTextTextPassword5"
+                    android:textSize="20sp"
+                    android:textColor="#555555"
+                    android:fontFamily="@font/overpass_semibold"
+                    tools:ignore="labelFor" />
+
+                <EditText
+                    android:id="@+id/editTextTextPassword5"
+                    android:layout_width="35dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/otp"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:imeOptions="actionNext"
+                    android:importantForAutofill="no"
+                    android:inputType="phone"
+                    android:maxLength="1"
+                    android:nextFocusForward="@id/editTextTextPassword6"
+                    android:textSize="20sp"
+                    android:textColor="#555555"
+                    android:fontFamily="@font/overpass_semibold"
+                    tools:ignore="labelFor" />
+
+                <EditText
+                    android:id="@+id/editTextTextPassword6"
+                    android:layout_width="35dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="6dp"
+                    android:background="@drawable/otp"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:imeOptions="actionNext"
+                    android:importantForAutofill="no"
+                    android:inputType="phone"
+                    android:maxLength="1"
+                    android:textSize="20sp"
+                    android:textColor="#555555"
+                    android:fontFamily="@font/overpass_semibold"
+                    tools:ignore="labelFor" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:gravity="end"
+                android:layout_below="@+id/otpLayout">
+
+                <!--                                <TextView-->
+                <!--                                    android:layout_width="wrap_content"-->
+                <!--                                    android:layout_height="wrap_content"-->
+                <!--                                    android:fontFamily="@font/overpass_medium"-->
+                <!--                                    android:paddingLeft="50dp"-->
+                <!--                                    android:text="Resend again in "-->
+                <!--                                    android:textAlignment="viewStart"-->
+                <!--                                    android:textColor="#5C5C5C"-->
+                <!--                                    android:textSize="16sp" />-->
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/llContent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom"
+                android:orientation="vertical"
+                android:paddingBottom="10dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnOtp"
+                    style="@style/ButtonBigVioletTheme"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginHorizontal="37dp"
+                    android:layout_marginTop="67dp"
+                    android:layout_marginBottom="16dp"
+                    android:backgroundTint="@color/disabled2"
+                    android:enabled="false"
+                    android:text="Submit OTP" />
+
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:id="@+id/tvBottomText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:text="New to Infuxion? "
+                        android:textAlignment="center"
+                        android:textColor="#968E8E"
+
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tvLogin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+
+                        android:text="Register"
+                        android:textColor="#311432"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp">
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+

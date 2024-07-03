@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckedEligibility"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+
+    <!--    Top View-->
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/rlTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_back"
+
+                />
+
+            <TextView
+                android:id="@+id/titlebar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="4dp"
+                android:fontFamily="@font/overpass_medium"
+                android:text="Loan Eligibility"
+                android:textAlignment="center"
+                android:textColor="#141414"
+                android:textSize="16sp" />
+
+
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="100dp"
+            android:layout_height="4dp"
+            android:src="@drawable/btn_primary"
+            android:scaleType="fitCenter"
+            />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="30dp"
+        app:srcCompat="@drawable/kyc_verified" />
+
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/btn_primary"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Proceed Further"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

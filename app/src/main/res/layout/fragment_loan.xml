@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoanFragment"
+    android:background="@color/white"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--    Top View-->
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:id="@+id/rlTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_back"
+
+                    />
+
+                <TextView
+                    android:id="@+id/titlebar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="@font/overpass_medium"
+                    android:text="Loan Repayment "
+                    android:textAlignment="center"
+                    android:textColor="#141414"
+                    android:textSize="16sp" />
+
+
+            </RelativeLayout>
+
+
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_width="100dp"
+                android:layout_height="4dp"
+                android:src="@drawable/btn_primary"
+                android:scaleType="fitCenter"
+                />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="30dp"
+                    android:orientation="vertical">
+
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:padding="20dp"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="5dp"
+                        android:elevation="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#180550"
+                            android:padding="20dp"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Hi, John "
+                                android:layout_marginBottom="20dp"
+                                android:textColor="@color/white"
+                                android:textSize="18sp"
+                                />
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/ivGlassCard"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="140dp"
+                                    android:background="@drawable/glass_card" />
+
+                                <TextView
+                                    android:id="@+id/tvCreditLimit"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignTop="@+id/ivGlassCard"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:text="Amount to be paid"
+                                    android:textColor="@color/white"
+                                    android:textSize="12sp"
+                                    tools:ignore="UnknownId" />
+
+                                <TextView
+                                    android:id="@+id/AmountCredit"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignBottom="@+id/tvCreditLimit"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="-22dp"
+                                    android:text="456 INR"
+                                    android:textColor="@color/white"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tvAmountUsed"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="30dp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_toRightOf="@+id/tvCreditLimit"
+                                    android:text="Due date"
+                                    android:textColor="@color/white"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:id="@+id/tvUsedLimit"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="30dp"
+                                    android:layout_marginTop="36dp"
+                                    android:layout_toRightOf="@+id/tvCreditLimit"
+                                    android:text="1 Febuary"
+                                    android:textColor="@color/white"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <androidx.appcompat.widget.AppCompatButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="35dp"
+                                    android:layout_marginLeft="30dp"
+                                    android:layout_marginTop="70dp"
+                                    android:layout_toRightOf="@+id/tvCreditLimit"
+                                    android:background="@drawable/btn_secondary"
+                                    android:fontFamily="@font/overpass_medium"
+                                    android:text="Repay dues"
+                                    android:textAllCaps="false"
+                                    android:textColor="#333"
+                                    android:textSize="12sp" />
+
+
+                            </RelativeLayout>
+
+
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="30dp">
+
+<!--                        <ImageView-->
+<!--                            android:id="@+id/imageView17"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="300dp"-->
+<!--                            app:srcCompat="@drawable/payment" />-->
+                    </androidx.cardview.widget.CardView>
+
+                    <Button
+                        android:id="@+id/button_next11"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/btn_primary"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:text="Proceed Further"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

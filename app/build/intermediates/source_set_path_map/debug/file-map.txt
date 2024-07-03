@@ -1,0 +1,70 @@
+com.example.infuxion_alternate.app-android-gif-drawable-1.2.17-0 /home/uphar/.gradle/caches/transforms-3/07c629c851e3e78804f86a76b587108a/transformed/android-gif-drawable-1.2.17/res
+com.example.infuxion_alternate.app-ui-geometry-1.2.1-1 /home/uphar/.gradle/caches/transforms-3/0b5e8a7ac96da2da48b978826a4465c5/transformed/ui-geometry-1.2.1/res
+com.example.infuxion_alternate.app-navigation-runtime-ktx-2.5.3-2 /home/uphar/.gradle/caches/transforms-3/117f581d8a92ffaa8f87d6aeb5dc72ad/transformed/navigation-runtime-ktx-2.5.3/res
+com.example.infuxion_alternate.app-lifecycle-livedata-core-2.5.1-3 /home/uphar/.gradle/caches/transforms-3/12cb2e0f2c15dfabf540eedd0f9ee081/transformed/lifecycle-livedata-core-2.5.1/res
+com.example.infuxion_alternate.app-emoji2-views-helper-1.2.0-4 /home/uphar/.gradle/caches/transforms-3/1bc40d12222ea43ff4061c3799f0fe11/transformed/emoji2-views-helper-1.2.0/res
+com.example.infuxion_alternate.app-ui-unit-1.2.1-5 /home/uphar/.gradle/caches/transforms-3/1beb46f8355a58ebbd5753125c31d2dc/transformed/ui-unit-1.2.1/res
+com.example.infuxion_alternate.app-camera-view-1.0.0-alpha14-6 /home/uphar/.gradle/caches/transforms-3/1cd632a4147d90eccbb73ef1d02627f4/transformed/camera-view-1.0.0-alpha14/res
+com.example.infuxion_alternate.app-lifecycle-runtime-ktx-2.5.1-7 /home/uphar/.gradle/caches/transforms-3/1e03b52e4da0f785180ed654d7b47111/transformed/lifecycle-runtime-ktx-2.5.1/res
+com.example.infuxion_alternate.app-fragment-ktx-1.5.4-8 /home/uphar/.gradle/caches/transforms-3/2261ef1cda6e01c2ee511a962f384c31/transformed/fragment-ktx-1.5.4/res
+com.example.infuxion_alternate.app-play-services-auth-20.3.0-9 /home/uphar/.gradle/caches/transforms-3/28daa0a30f3366e02e94f1f8d154fa24/transformed/play-services-auth-20.3.0/res
+com.example.infuxion_alternate.app-activity-ktx-1.5.1-10 /home/uphar/.gradle/caches/transforms-3/299cb584f5e7c201519781c09921a05e/transformed/activity-ktx-1.5.1/res
+com.example.infuxion_alternate.app-play-services-base-18.1.0-11 /home/uphar/.gradle/caches/transforms-3/3346c63f2031682fcf2ad22540ddc92f/transformed/play-services-base-18.1.0/res
+com.example.infuxion_alternate.app-emoji2-1.2.0-12 /home/uphar/.gradle/caches/transforms-3/36123fd79072a3ca819b510c1560acf5/transformed/emoji2-1.2.0/res
+com.example.infuxion_alternate.app-recyclerview-1.1.0-13 /home/uphar/.gradle/caches/transforms-3/3732cfde60fbb81080c9a05ff64897e0/transformed/recyclerview-1.1.0/res
+com.example.infuxion_alternate.app-lottie-4.2.2-14 /home/uphar/.gradle/caches/transforms-3/3bb5d691a971024634cb538828920a52/transformed/lottie-4.2.2/res
+com.example.infuxion_alternate.app-material-1.7.0-15 /home/uphar/.gradle/caches/transforms-3/3c2f440cbfed049899371a0f39c7d2e6/transformed/material-1.7.0/res
+com.example.infuxion_alternate.app-navigation-ui-ktx-2.5.3-16 /home/uphar/.gradle/caches/transforms-3/3d85bb576e4b3d6b749b3d93f80d7931/transformed/navigation-ui-ktx-2.5.3/res
+com.example.infuxion_alternate.app-navigation-fragment-ktx-2.5.3-17 /home/uphar/.gradle/caches/transforms-3/3f138e8ee206859a8373d8cfe7676570/transformed/navigation-fragment-ktx-2.5.3/res
+com.example.infuxion_alternate.app-runtime-1.1.1-18 /home/uphar/.gradle/caches/transforms-3/4a14014ca39375450243ed5a6cdc4353/transformed/runtime-1.1.1/res
+com.example.infuxion_alternate.app-activity-1.5.1-19 /home/uphar/.gradle/caches/transforms-3/597ec34e36b9bafc2e47879f82d25a2f/transformed/activity-1.5.1/res
+com.example.infuxion_alternate.app-glide-4.15.1-20 /home/uphar/.gradle/caches/transforms-3/59a1765dfb6ec065eb8b3cefc026936e/transformed/glide-4.15.1/res
+com.example.infuxion_alternate.app-startup-runtime-1.1.1-21 /home/uphar/.gradle/caches/transforms-3/5a113045dc2deea846666453efb491cf/transformed/startup-runtime-1.1.1/res
+com.example.infuxion_alternate.app-transition-1.4.1-22 /home/uphar/.gradle/caches/transforms-3/6648af343ea1824732e6c048e35c4cf3/transformed/transition-1.4.1/res
+com.example.infuxion_alternate.app-appcompat-resources-1.5.1-23 /home/uphar/.gradle/caches/transforms-3/6c80ff3ae0fc3d49d415aa8e0ce5086c/transformed/appcompat-resources-1.5.1/res
+com.example.infuxion_alternate.app-navigation-common-2.5.3-24 /home/uphar/.gradle/caches/transforms-3/6e4835d7aecb3773a14c1b299ba4dbfc/transformed/navigation-common-2.5.3/res
+com.example.infuxion_alternate.app-navigation-ui-2.5.3-25 /home/uphar/.gradle/caches/transforms-3/6fb46332e13f2d4fd3e01b2fa1876d67/transformed/navigation-ui-2.5.3/res
+com.example.infuxion_alternate.app-browser-1.4.0-26 /home/uphar/.gradle/caches/transforms-3/70f857aad07525f8aaecf503a38cda80/transformed/browser-1.4.0/res
+com.example.infuxion_alternate.app-ui-graphics-1.2.1-27 /home/uphar/.gradle/caches/transforms-3/760b859262fc998b7d5cd6ea1e91954c/transformed/ui-graphics-1.2.1/res
+com.example.infuxion_alternate.app-firebase-common-20.2.0-28 /home/uphar/.gradle/caches/transforms-3/7eb133c31fb1ca8b58bb71aec4d78f6d/transformed/firebase-common-20.2.0/res
+com.example.infuxion_alternate.app-viewpager2-1.0.0-29 /home/uphar/.gradle/caches/transforms-3/8242cda51965b621369c8bb8ccdb14e1/transformed/viewpager2-1.0.0/res
+com.example.infuxion_alternate.app-appcompat-1.5.1-30 /home/uphar/.gradle/caches/transforms-3/84c3c59417e4b912ec9f69a60c1ba43f/transformed/appcompat-1.5.1/res
+com.example.infuxion_alternate.app-fragment-1.5.4-31 /home/uphar/.gradle/caches/transforms-3/8d3cd097e7fb08c97f70869673a08a84/transformed/fragment-1.5.4/res
+com.example.infuxion_alternate.app-lifecycle-viewmodel-2.5.1-32 /home/uphar/.gradle/caches/transforms-3/8fdaaeb976ca04ee518a5b5faf17cfa6/transformed/lifecycle-viewmodel-2.5.1/res
+com.example.infuxion_alternate.app-navigation-fragment-2.5.3-33 /home/uphar/.gradle/caches/transforms-3/911f93659e1c79493866c45ab846feeb/transformed/navigation-fragment-2.5.3/res
+com.example.infuxion_alternate.app-lifecycle-viewmodel-savedstate-2.5.1-34 /home/uphar/.gradle/caches/transforms-3/94b60fde5a173e7a51f1bb864ce917c6/transformed/lifecycle-viewmodel-savedstate-2.5.1/res
+com.example.infuxion_alternate.app-play-services-basement-18.1.0-35 /home/uphar/.gradle/caches/transforms-3/96958db24f10bd35fd82ac3e3345faa8/transformed/play-services-basement-18.1.0/res
+com.example.infuxion_alternate.app-lifecycle-runtime-2.5.1-36 /home/uphar/.gradle/caches/transforms-3/978728d486ff05797e03996cea4a334d/transformed/lifecycle-runtime-2.5.1/res
+com.example.infuxion_alternate.app-camera-camera2-1.0.0-beta07-37 /home/uphar/.gradle/caches/transforms-3/9b401d2746df4762382708ea8dd9780e/transformed/camera-camera2-1.0.0-beta07/res
+com.example.infuxion_alternate.app-window-1.0.0-38 /home/uphar/.gradle/caches/transforms-3/9ca062ced209d13eca06a3444420180f/transformed/window-1.0.0/res
+com.example.infuxion_alternate.app-core-1.8.0-39 /home/uphar/.gradle/caches/transforms-3/ad06c22588637fb1114095452eb3c461/transformed/core-1.8.0/res
+com.example.infuxion_alternate.app-ssp-android-1.1.0-40 /home/uphar/.gradle/caches/transforms-3/b544c9fcdabfc69662b291b6dcae26bc/transformed/ssp-android-1.1.0/res
+com.example.infuxion_alternate.app-coordinatorlayout-1.1.0-41 /home/uphar/.gradle/caches/transforms-3/b8d486e5788a2d48446b3b2cc04965a6/transformed/coordinatorlayout-1.1.0/res
+com.example.infuxion_alternate.app-ui-util-1.2.1-42 /home/uphar/.gradle/caches/transforms-3/bb347d0a517ef4fb9033528665dc299a/transformed/ui-util-1.2.1/res
+com.example.infuxion_alternate.app-lifecycle-viewmodel-ktx-2.5.1-43 /home/uphar/.gradle/caches/transforms-3/c093484adec40710b04af8805c00a6aa/transformed/lifecycle-viewmodel-ktx-2.5.1/res
+com.example.infuxion_alternate.app-drawerlayout-1.1.1-44 /home/uphar/.gradle/caches/transforms-3/cf41fba01509115b30e8ade3c8b6c8f8/transformed/drawerlayout-1.1.1/res
+com.example.infuxion_alternate.app-navigation-common-ktx-2.5.3-45 /home/uphar/.gradle/caches/transforms-3/cf67043f15fd4f59756c825fc3998f46/transformed/navigation-common-ktx-2.5.3/res
+com.example.infuxion_alternate.app-lifecycle-process-2.4.1-46 /home/uphar/.gradle/caches/transforms-3/d0794e5d0ecf462732b1eb4cddc0974f/transformed/lifecycle-process-2.4.1/res
+com.example.infuxion_alternate.app-sdp-android-1.1.0-47 /home/uphar/.gradle/caches/transforms-3/d8128bd3949b23b09507e45beeb73c46/transformed/sdp-android-1.1.0/res
+com.example.infuxion_alternate.app-biometric-1.1.0-48 /home/uphar/.gradle/caches/transforms-3/dbe0311bdee55b9a1066e0a22de1dfab/transformed/biometric-1.1.0/res
+com.example.infuxion_alternate.app-savedstate-1.2.0-49 /home/uphar/.gradle/caches/transforms-3/dd2e70405d643cc60de47ac62a83b31f/transformed/savedstate-1.2.0/res
+com.example.infuxion_alternate.app-annotation-experimental-1.1.0-50 /home/uphar/.gradle/caches/transforms-3/df45bfcb58d6232cd6cd805359f46468/transformed/annotation-experimental-1.1.0/res
+com.example.infuxion_alternate.app-slidingpanelayout-1.2.0-51 /home/uphar/.gradle/caches/transforms-3/e033e128b3170561a61df45ce111a8fe/transformed/slidingpanelayout-1.2.0/res
+com.example.infuxion_alternate.app-lifecycle-livedata-core-ktx-2.5.1-52 /home/uphar/.gradle/caches/transforms-3/e486e0f02e395e5035bb0c68b7dad068/transformed/lifecycle-livedata-core-ktx-2.5.1/res
+com.example.infuxion_alternate.app-savedstate-ktx-1.2.0-53 /home/uphar/.gradle/caches/transforms-3/e72a9e61c6b93fca055ad6b97cccbe4e/transformed/savedstate-ktx-1.2.0/res
+com.example.infuxion_alternate.app-cardview-1.0.0-54 /home/uphar/.gradle/caches/transforms-3/e785310ed4e69025c948f43562925d01/transformed/cardview-1.0.0/res
+com.example.infuxion_alternate.app-camera-core-1.0.0-beta07-55 /home/uphar/.gradle/caches/transforms-3/f5c46e2cb276fc0d16a91e1a61331487/transformed/camera-core-1.0.0-beta07/res
+com.example.infuxion_alternate.app-navigation-runtime-2.5.3-56 /home/uphar/.gradle/caches/transforms-3/f8c680bda659b0ed3fcbfcf351626f74/transformed/navigation-runtime-2.5.3/res
+com.example.infuxion_alternate.app-core-ktx-1.8.0-57 /home/uphar/.gradle/caches/transforms-3/f90985d527db548fdf57e50bcfe6f474/transformed/core-ktx-1.8.0/res
+com.example.infuxion_alternate.app-constraintlayout-2.1.4-58 /home/uphar/.gradle/caches/transforms-3/fd9e0970b0cc2bd1e345bac1df0c915e/transformed/constraintlayout-2.1.4/res
+com.example.infuxion_alternate.app-res-59 /home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/build/generated/crashlytics/res/debug
+com.example.infuxion_alternate.app-google-services-60 /home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/build/generated/res/google-services/debug
+com.example.infuxion_alternate.app-pngs-61 /home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/build/generated/res/pngs/debug
+com.example.infuxion_alternate.app-resValues-62 /home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/build/generated/res/resValues/debug
+com.example.infuxion_alternate.app-rs-63 /home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/build/generated/res/rs/debug
+com.example.infuxion_alternate.app-packageDebugResources-64 /home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.infuxion_alternate.app-packageDebugResources-65 /home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.infuxion_alternate.app-merged_res-66 /home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/build/intermediates/merged_res/debug
+com.example.infuxion_alternate.app-debug-67 /home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/debug/res
+com.example.infuxion_alternate.app-main-68 /home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/app/src/main/res
+com.example.infuxion_alternate.app-packaged_res-69 /home/uphar/AndroidStudioProjects/neo-saturn (2)-12may/neo-saturn/image_compressor/build/intermediates/packaged_res/debug

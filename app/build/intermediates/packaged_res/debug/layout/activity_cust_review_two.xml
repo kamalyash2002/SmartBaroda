@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:paddingTop="10dp"
+    tools:context=".customerinfo.CustReviewTwo">
+
+
+
+
+    <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp">
+
+            <RelativeLayout
+                android:id="@+id/rlTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <TextView
+                    android:id="@+id/titlebar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:fontFamily="@font/overpass_medium"
+                    android:text="Review Present Address"
+                    android:textAlignment="center"
+                    android:textColor="#333"
+                    android:textSize="18sp" />
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+
+        <ScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="10dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="10dp"
+                    >
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#3A414B"
+                        android:textSize="14sp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/overpass_medium"
+                        android:text="Address Line-1"
+
+
+                        android:paddingRight="20dp"
+                        />
+
+                    <EditText
+                        android:background="@drawable/edit_text_square_rounded"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#3C444E"
+                        android:textSize="16sp"
+                        android:paddingLeft="20dp"
+
+                        android:paddingRight="20dp"
+                        android:inputType="textPersonName"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="15dp"
+                        android:fontFamily="@font/overpass_medium"
+                        android:hint="Enter address line 1"
+                        android:gravity="start"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="10dp"
+                    >
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#3A414B"
+                        android:textSize="14sp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/overpass_medium"
+                        android:text="Address Line-2"
+
+
+                        android:paddingRight="20dp"
+                        />
+
+                    <EditText
+                        android:background="@drawable/edit_text_square_rounded"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#3C444E"
+                        android:textSize="16sp"
+                        android:paddingLeft="20dp"
+
+                        android:paddingRight="20dp"
+                        android:inputType="textPersonName"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="15dp"
+                        android:fontFamily="@font/overpass_medium"
+                        android:hint="Enter address line 2"
+                        android:gravity="start"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="10dp"
+                    >
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#3A414B"
+                        android:textSize="14sp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/overpass_medium"
+                        android:text="Landmark"
+
+
+                        android:paddingRight="20dp"
+                        />
+
+                    <EditText
+                        android:background="@drawable/edit_text_square_rounded"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#3C444E"
+                        android:textSize="16sp"
+                        android:paddingLeft="20dp"
+
+                        android:paddingRight="20dp"
+                        android:inputType="textPersonName"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="15dp"
+                        android:fontFamily="@font/overpass_medium"
+                        android:hint="Enter landmark"
+                        android:gravity="start"
+                        />
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginBottom="6dp"
+                        android:fontFamily="@font/overpass_medium"
+                        android:text="State"
+                        android:textColor="#311432"
+                        android:textSize="14sp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="2dp"
+
+                        app:cardUseCompatPadding="true"
+                        >
+                        <Spinner
+                            android:id="@+id/spState"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:paddingLeft="30dp"
+
+                            android:paddingRight="30dp"
+                            />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="10dp"
+                    >
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#3A414B"
+                        android:textSize="14sp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/overpass_medium"
+                        android:text="Pincode"
+
+
+                        android:paddingRight="20dp"
+                        />
+
+                    <EditText
+                        android:background="@drawable/edit_text_square_rounded"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#3C444E"
+                        android:textSize="16sp"
+                        android:paddingLeft="20dp"
+
+                        android:paddingRight="20dp"
+                        android:inputType="number"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="15dp"
+
+                        android:fontFamily="@font/overpass_medium"
+                        android:hint="Enter pincode"
+                        android:gravity="start"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="10dp"
+                    >
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#3A414B"
+                        android:textSize="14sp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/overpass_medium"
+                        android:text="Pincode"
+
+
+                        android:paddingRight="20dp"
+                        />
+
+                    <EditText
+                        android:background="@drawable/edit_text_square_rounded"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#3C444E"
+                        android:textSize="16sp"
+                        android:paddingLeft="20dp"
+
+                        android:paddingRight="20dp"
+                        android:inputType="number"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="15dp"
+                        android:fontFamily="@font/overpass_medium"
+                        android:hint="Enter pincode"
+                        android:gravity="start"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="10dp"
+                    >
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#3A414B"
+                        android:textSize="14sp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/overpass_medium"
+                        android:text="Street"
+
+
+                        android:paddingRight="20dp"
+                        />
+
+                    <EditText
+                        android:background="@drawable/edit_text_square_rounded"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#3C444E"
+                        android:textSize="16sp"
+                        android:paddingLeft="20dp"
+
+                        android:paddingRight="20dp"
+                        android:inputType="number"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="15dp"
+                        android:fontFamily="@font/overpass_medium"
+                        android:hint="Enter street"
+                        android:gravity="start"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="10dp"
+                    >
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#3A414B"
+                        android:textSize="14sp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/overpass_medium"
+                        android:text="City"
+
+
+                        android:paddingRight="20dp"
+                        />
+
+                    <EditText
+                        android:background="@drawable/edit_text_square_rounded"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#3C444E"
+                        android:textSize="16sp"
+                        android:paddingLeft="20dp"
+
+                        android:paddingRight="20dp"
+                        android:inputType="number"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="15dp"
+                        android:fontFamily="@font/overpass_medium"
+                        android:hint="Enter city"
+                        android:gravity="start"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="10dp"
+                    >
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#3A414B"
+                        android:textSize="14sp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/overpass_medium"
+                        android:text="District"
+
+
+                        android:paddingRight="20dp"
+                        />
+
+                    <EditText
+                        android:background="@drawable/edit_text_square_rounded"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#3C444E"
+                        android:textSize="16sp"
+                        android:paddingLeft="20dp"
+
+                        android:paddingRight="20dp"
+                        android:inputType="number"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="15dp"
+                        android:fontFamily="@font/overpass_medium"
+                        android:hint="Enter district"
+                        android:gravity="start"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="10dp"
+                    >
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#3A414B"
+                        android:textSize="14sp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/overpass_medium"
+                        android:text="Additional Mobile no. (optional)"
+
+
+                        android:paddingRight="20dp"
+                        />
+
+                    <EditText
+                        android:background="@drawable/edit_text_square_rounded"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#3C444E"
+                        android:textSize="16sp"
+                        android:paddingLeft="20dp"
+
+                        android:paddingRight="20dp"
+                        android:inputType="number"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="15dp"
+                        android:fontFamily="@font/overpass_medium"
+                        android:hint="Enter additional phone number"
+                        android:gravity="start"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="10dp"
+
+                    >
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#3A414B"
+                        android:textSize="14sp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/overpass_medium"
+                        android:text="Residence Type"
+
+
+                        android:paddingRight="20dp"
+                        />
+
+
+                    <RadioGroup
+                        android:id="@+id/residentialType"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:id="@+id/owned"
+                            android:textSize="12sp"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Owned"
+                            android:textColor="#5C5C5C" />
+
+                        <RadioButton
+                            android:id="@+id/rented"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Rented"
+                            android:textSize="12sp"
+                            android:textColor="#5C5C5C"
+                            />
+
+                        <RadioButton
+                            android:id="@+id/parental"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Parental"
+                            android:textSize="12sp"
+                            android:textColor="#5C5C5C"
+                            />
+                        <RadioButton
+                            android:id="@+id/company"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Company Provided"
+                            android:textSize="12sp"
+                            android:textColor="#5C5C5C"
+                            />
+
+                    </RadioGroup>
+
+
+
+                </LinearLayout>
+
+
+
+
+
+                <!--            #9 DOB  -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/monthlyRent"
+                    android:visibility="gone"
+                    >
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginBottom="6dp"
+                        android:fontFamily="@font/overpass_medium"
+                        android:text="Monthly Rent in INR (Rented) "
+                        android:textColor="#311432"
+
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:background="@drawable/edit_text_square_rounded"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#3C444E"
+                        android:textSize="16sp"
+                        android:paddingLeft="20dp"
+
+                        android:paddingRight="20dp"
+                        android:inputType="number"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="15dp"
+                        android:fontFamily="@font/overpass_medium"
+                        android:hint="Enter monthly rent"
+                        android:gravity="start"
+                        />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/isPermanentSameAsPresent"
+                    >
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginBottom="6dp"
+                        android:fontFamily="@font/overpass_medium"
+                        android:text="Is your permanent address same as present"
+                        android:textColor="#311432"
+
+                        android:textSize="14sp" />
+
+                    <RadioGroup
+                        android:id="@+id/radioGroupIsPermanentPresent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:id="@+id/yes"
+                            android:textSize="12sp"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Yes"
+                            android:textColor="#5C5C5C" />
+
+                        <RadioButton
+                            android:id="@+id/no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="No"
+                            android:textSize="12sp"
+                            android:textColor="#5C5C5C"
+                            />
+
+
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnNext"
+                    style="@style/ButtonBigVioletTheme"
+                    android:layout_width="match_parent"
+                    android:layout_centerInParent="true"
+                    android:text="Confirm"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="50dp"
+                    />
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>

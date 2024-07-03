@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.infuxion_alternate.app-mergeDebugResources-64:/values-v22/values-v22.xml",
+            "map": [
+                {
+                    "source": "/home/uphar/.jdks/caches/transforms-3/84c3c59417e4b912ec9f69a60c1ba43f/transformed/appcompat-1.5.1/res/values-v22/values-v22.xml",
+                    "from": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,487",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,482,764"
+                    }
+                }
+            ]
+        }
+    ]
+}
