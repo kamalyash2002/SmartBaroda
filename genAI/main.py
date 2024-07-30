@@ -82,3 +82,7 @@ def report_handler(userId: str):
     report = reportGenerator(userId)
     print("Report:", report)
     return report
+
+@app.get("/")
+def read_root():
+    return {"Hello": "Uphar Randi hai"}
