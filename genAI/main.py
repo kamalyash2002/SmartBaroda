@@ -5,6 +5,7 @@ from services.loanRecommenderAgent import loanRecommender
 from services.policyRecommenderAgent import policyRecommender
 from services.financialAdvisor import financialAdvisor
 from services.smartPromotions import smartPromotions
+from services.reportGenerator import reportGenerator
 import json
 
 app = FastAPI()
@@ -75,3 +76,9 @@ def financial_handler(userId: str, prompt: PromptItem):
 def smartPromotions_handler(userId: str):
     smartNotifications = smartPromotions(userId)
     return {"smartNotifications": smartNotifications}
+
+@app.get("/reportGenerator/{userId}")
+def report_handler(userId: str):
+    report = reportGenerator(userId)
+    print("Report:", report)
+    return report
