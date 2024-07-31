@@ -4,7 +4,18 @@
 "Driving the technology through the leaps of Himalayas"
 
 ## Project Overview
-This project aims to solve the problem of personalized content generation for the banking sector, enhancing customer satisfaction and engagement through tailored content. Our solution leverages advanced AI and machine learning models to deliver personalized marketing materials, financial reports, and educational content.
+This project aims to solve the problem of personalized content generation for the banking sector, enhancing customer satisfaction and engagement through tailored content. Our solution leverages advanced AI and machine learning models to deliver personalized marketing materials, financial reports, and educational content.![finanical advisor](https://github.com/user-attachments/assets/ea56b505-968e-4976-b5ba-1391e4cb6f76)
+![dashboardHomeScreen](https://github.com/user-attachments/assets/46baf0d7-5964-40d1-9fdb-9e0a63fd64de)
+![graph and goals](https://github.com/user-attachments/assets/d79eea6e-f9c8-4721-96fa-f49f6d6c0280)
+![ai_prompts1](https://github.com/user-attachments/assets/25baa61b-5bb2-4655-8f24-ed5eb03c607e)
+![ai_prompts2](https://github.com/user-attachments/assets/6116f091-8e8a-40a2-9a3b-799c6c34da1e)
+![transaction](https://github.com/user-attachments/assets/8a37d73b-e561-479e-bcdf-52c8e76944e8)
+![transaction Screen](https://github.com/user-attachments/assets/398afb99-85bf-458d-a666-4286b907319d)
+![ProfileScreen](https://github.com/user-attachments/assets/5113e213-693f-4f50-934b-eb7958e29f28)
+![financial_report](https://github.com/user-attachments/assets/5ed13bae-3660-430c-b9d8-725617c41233)
+![login_screen](https://github.com/user-attachments/assets/2cb8f196-ae9f-4287-a2ef-490b594a26e2)
+![splash_screen](https://github.com/user-attachments/assets/7e47287f-0ebf-493e-a0dd-df83cdcf6a8f)
+
 
 ## Repository
 Android Code Branch Link: [SmartBaroda](https://github.com/uphargaur/SmartBaroda)
