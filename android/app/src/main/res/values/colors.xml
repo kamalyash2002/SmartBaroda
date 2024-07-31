@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="greybg">#cccccc</color>
@@ -26,13 +30,14 @@
     <color name="primaryGray">#8582A1</color>
     <color name="ash">#EAEAEA</color>
     <color name="indigo">#7165E3</color>
+    <color name="green_fun">#028F3B</color>
+    <color name="red_dark">#C60000</color>
+
+
 
     <style name="dmsans_regular_12">
         <item name="android:textSize">12sp</item>
-        <item name="android:fontFamily">@font/dmsans_regular</item>
         <item name="android:textColor">@color/text_color</item>
     </style>
-
-
 
 </resources>

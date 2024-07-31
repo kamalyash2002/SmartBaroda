@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".intro.FaceMlActivity"
+    tools:context=".splashScreen.FaceMlActivity"
 
     android:orientation="vertical">
 
@@ -38,7 +38,7 @@
                 android:layout_marginTop="4dp"
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
-                android:fontFamily="@font/overpass_medium"
+                android:fontFamily="@font/"
                 android:text="Face Detection"
                 android:textAlignment="center"
                 android:textColor="#141414"
@@ -104,7 +104,6 @@
             android:textColor="#555"
             android:textSize="18sp"
             android:textAlignment="center"
-            android:fontFamily="@font/overpass_semibold"
             android:layout_marginTop="10dp"
             />
         <androidx.cardview.widget.CardView
@@ -112,7 +111,7 @@
             android:layout_height="360dp"
             app:cardCornerRadius="200dp"
             android:layout_margin="20dp"
-            >  <!-- Add this line -->
+            >
 
 
             <androidx.camera.view.PreviewView
@@ -128,10 +127,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:fontFamily="@font/overpass_semibold"
             android:text="Capturing Facial Features"
             android:textAlignment="center"
-            android:textColor="@color/colorPrimary"
             android:textSize="16sp" />
 
 

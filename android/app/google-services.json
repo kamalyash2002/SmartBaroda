@@ -1,41 +1,62 @@
 {
   "project_info": {
-    "project_number": "380280935643",
-    "project_id": "neosaturn-11e4c",
-    "storage_bucket": "neosaturn-11e4c.appspot.com"
+    "project_number": "352894862311",
+    "project_id": "gymrat-78acb",
+    "storage_bucket": "gymrat-78acb.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:380280935643:android:ec85c6b6ba54b7b0b7e8fe",
+        "mobilesdk_app_id": "1:352894862311:android:4a8970431da927ce9e3342",
         "android_client_info": {
-          "package_name": "com.example.infuxion_alternate"
+          "package_name": "com.example.quote"
         }
       },
       "oauth_client": [
         {
-          "client_id": "380280935643-ihtc7voi12vdfcfb91o5hc4mj952aljr.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.infuxion_alternate",
-            "certificate_hash": "9a9e7584834c71976bbec7ae383a3452b4b7c39a"
-          }
-        },
-        {
-          "client_id": "380280935643-gjl97po7r4vfjqa6broh1f1hiotg0u6p.apps.googleusercontent.com",
+          "client_id": "352894862311-fg84dm1022ek0lqvkndpl5ja6f9sku9a.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDKIGdndJLVKU60ob_J4k5rmYH7UnklJT4"
+          "current_key": "AIzaSyBK2hJWFh1THBfJCqw5miFeDhcKdQyf8eo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "380280935643-gjl97po7r4vfjqa6broh1f1hiotg0u6p.apps.googleusercontent.com",
+              "client_id": "352894862311-fg84dm1022ek0lqvkndpl5ja6f9sku9a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352894862311:android:4467366cec653e9f9e3342",
+        "android_client_info": {
+          "package_name": "com.uphar.smartbaroda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352894862311-fg84dm1022ek0lqvkndpl5ja6f9sku9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK2hJWFh1THBfJCqw5miFeDhcKdQyf8eo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352894862311-fg84dm1022ek0lqvkndpl5ja6f9sku9a.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
