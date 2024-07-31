@@ -198,6 +198,15 @@ Core Backend Branch : [Core Server](https://github.com/kamalyash2002/SmartBaroda
 - **Audits and Assessments**
 - **Disaster Recovery**
 
+## Android App Releases
+
+### Version History
+
+#### v1.0.0 - July 31, 2024
+- Initial release with core features
+- Includes functionalities like user registration, login, GenAI Features etc.
+
+
 ## Contributors
 - Yash Kamal Saxena
 - Tushar Garg
