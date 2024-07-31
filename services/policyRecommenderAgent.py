@@ -76,13 +76,7 @@ def policyRecommender(userId: str, userPrompt: str):
             "policyType": "health",
             "policyDescription": "this is good policy",
             "premiumAmount": "123",
-            "policyTenure": "2",
-            "maturityPeriod": "3",
-            "endAmount": "123",
-            "insuranceCover": "12334455",
-            "insuranceAmount": "1234",
-            "benefits": "goof",
-            "downloadableDocument": "link"
+            "policyTenure": "2"
         }]
         """
     )
