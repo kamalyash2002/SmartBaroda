@@ -50,7 +50,7 @@ exports.login = async (req, res) => {
     }
 
     const payload = { user: { id: user.id, accNo: user.accNo } };
-    jwt.sign(payload, 'secret', { expiresIn: '1h' }, (err, token) => {
+    jwt.sign(payload, 'secret', { expiresIn: '10d' }, (err, token) => {
       if (err) throw err;
       res.json({ token });
     });

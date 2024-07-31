@@ -1,25 +1,30 @@
-name: Deploy Nodejs to Azure App Service
+name: Deploy Node.js to Azure App Service
 
 on:
-  push: 
-    branches: 
+  push:
+    branches:
       - final-submission
 
-jobs: 
+jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Source
         uses: actions/checkout@v3
+      
       - name: Setup Node.js version
         uses: actions/setup-node@v4
-        with: 
+        with:
           node-version: '20.x'
+      
       - name: Install Dependencies
-        run: npm install
+        run: |
+          cd server
+          npm install
+      
       - name: Deploy to Azure App Service
         uses: azure/webapps-deploy@v2
         with:
           app-name: smartbarodanode
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-          package: server       
+          package: server
