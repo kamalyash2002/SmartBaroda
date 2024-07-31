@@ -1,0 +1,43 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - final-submission
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          cd genAI
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Build and test
+        run: |
+          # Add your build and test commands here
+          cd genAI
+          uvicorn main:app
+
+      - name: Publish artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: app
+
+      - name: Deploy to Azure App Service
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: smartbarodagenaiV2
+          publish-profile: ${{ secrets.AZURE_APP_SERVICE_GENAI }}
+          package: ${{ github.workspace }}/genAI
