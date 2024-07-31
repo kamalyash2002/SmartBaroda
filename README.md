@@ -6,6 +6,10 @@
 ## Project Overview
 This project aims to solve the problem of personalized content generation for the banking sector, enhancing customer satisfaction and engagement through tailored content. Our solution leverages advanced AI and machine learning models to deliver personalized marketing materials, financial reports, and educational content.
 
+## App Download
+
+Link : https://github.com/kamalyash2002/SmartBaroda/tags
+
 ## Screenshots 
 
 <table>
