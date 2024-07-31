@@ -8,8 +8,8 @@ This project aims to solve the problem of personalized content generation for th
 
 ## Repository
 Android Code Branch Link: [SmartBaroda](https://github.com/uphargaur/SmartBaroda)
-GenAI Backend Branch : https://github.com/kamalyash2002/SmartBaroda/tree/final-genAI
-Core Backend Branch : https://github.com/kamalyash2002/SmartBaroda/tree/final-coreBackend
+GenAI Backend Branch : [GenAI Services](https://github.com/kamalyash2002/SmartBaroda/tree/final-genAI)
+Core Backend Branch : [Core Server](https://github.com/kamalyash2002/SmartBaroda/tree/final-submission/server)
 
 
 ## Architecture
