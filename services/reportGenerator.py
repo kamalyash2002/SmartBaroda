@@ -40,6 +40,7 @@ def reportGenerator(userId: str):
         Analyse the user transaction by the transaction category.
         Suggest the user {username} the best practices to save money for the future in points.
         Consider different factors like health, wealth, child education and lifestyle etc.
+        Dont Display the user transaction details again just analyse.
         
         These are {username} user's total amount spent in each category:
         {userTransactions}
