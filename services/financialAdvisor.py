@@ -43,6 +43,6 @@ def financialAdvisor(userId: str, userPrompt: str) -> list:
 # Example usage
 if __name__ == "__main__":
     userId = "123456"
-    userPrompt = "What are mutual funds ?"
+    userPrompt = "Give me last 10 days transaction details"
     recommendations = financialAdvisor(userId, userPrompt)
     print(recommendations)
