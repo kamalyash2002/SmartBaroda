@@ -7,7 +7,10 @@
 This project aims to solve the problem of personalized content generation for the banking sector, enhancing customer satisfaction and engagement through tailored content. Our solution leverages advanced AI and machine learning models to deliver personalized marketing materials, financial reports, and educational content.
 
 ## Repository
-GitHub Link: [SmartBaroda](https://github.com/uphargaur/SmartBaroda)
+Android Code Branch Link: [SmartBaroda](https://github.com/uphargaur/SmartBaroda)
+GenAI Backend Branch : https://github.com/kamalyash2002/SmartBaroda/tree/final-genAI
+Core Backend Branch : https://github.com/kamalyash2002/SmartBaroda/tree/final-coreBackend
+
 
 ## Architecture
 
