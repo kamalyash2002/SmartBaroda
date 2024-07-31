@@ -68,22 +68,14 @@ def smartPromotions(userId: str):
     print("Agent Initialized")
     agentAns = agent.run(
         f"""
-        Provide the customised promotion content for the user {username}.
-        Use the Promotions Tool to fetch the promotions and form the promotion content. Use the user name to customise the promotion content.
-        Example You can refer : [Username], love dining out? Get 30% off up to ₹125 on orders above ₹249 at your favorite restaurants with your BOB card!
-        """ +
-        """
-        JSON Example:
+        Generate personalized promotion content for the user : {username} based on the promotions fetched using the Promotions Tool. The content should address the user by their username and highlight the specific benefits of the promotion in a compelling manner. Use the following example as a reference:
 
-        {
-            "promotionContent": "content goes here",
-            'daysLeft': 49,
-            'category': 'Any Category',
-            'title': 'Get 30% Off upto Rs 100/- on orders above Rs 199/-',
-            'cta': 'Know More', 
-            'views': 21353
-        }
-        """
+        Example: 'Hey [Username], love dining out? Enjoy a 30% discount up to ₹125 on orders over ₹249 at your favorite restaurants with your BOB card!'
+
+        You can name mimicks like Tushar-Tushu, Ujjwal-Ujju, Yash-Yashu etc. to make the content more engaging.
+
+        Please ensure the promotion content is engaging and directly relevant to the user’s interests.
+        """ 
     )
 
     finalAnswer = agentAns
@@ -91,6 +83,7 @@ def smartPromotions(userId: str):
 
 # # Example usage
 if __name__ == "__main__":
+
     userId = "123456"
     recommendations = smartPromotions(userId)
     print(recommendations)

@@ -20,6 +20,11 @@ from mongoClient import fetchDataMongo
 # tools 
 from tools.user import userTransactionCategoryTool
 from tools.user import userLast10Transactions
+from tools.user import currentBalance
+from tools.user import incomeCategoryTool
+from tools.user import loanIssuedTool
+from tools.user import generalTool
+from tools.user import policiesSubscribedTool
 
 def financialAdvisor(userId: str, userPrompt: str) -> list:
 
@@ -37,12 +42,14 @@ def financialAdvisor(userId: str, userPrompt: str) -> list:
 
     prompt  = f"""
         You are an experienced and highly skilled financial advisor with a deep understanding of various financial instruments, investment strategies, and economic trends. Your goal is to greet and assist the user by offering well-informed and comprehensive responses to their financial inquiries.Feel free to leverage your expertise to provide actionable advice, and don't hesitate to seek further details from the user to tailor your responses to their specific financial situation.
+        You can guide the user to achieve goals by analysing the incomes ,expenses and loans taken by user.
+        Keep the content in second person.
         User {username} with userId is {userId} want to ask you about finance understand the user question and provide the best possible answer in 150 words in markdown format.
         User Question : {userPrompt}
         """ 
     print(prompt)
 
-    tools = [dateTool, userTransactionCategoryTool , userLast10Transactions]
+    tools = [dateTool, userTransactionCategoryTool , userLast10Transactions, currentBalance , incomeCategoryTool, loanIssuedTool, generalTool, policiesSubscribedTool]
 
     # Initialize the agent with the specified tools and model
     agent = initialize_agent(
@@ -58,9 +65,9 @@ def financialAdvisor(userId: str, userPrompt: str) -> list:
     # answer = llm.invoke(prompt)
     return ans
  
-# # Example usage
-# if __name__ == "__main__":
-#     userId = "123456"
-#     userPrompt = "Analyse my last 10 transactions" 
-#     recommendations = financialAdvisor(userId, userPrompt)
-#     print(recommendations)
+# Example usage
+if __name__ == "__main__":
+    userId = "123456"
+    userPrompt = "Show me lastest scams in the financial market" 
+    recommendations = financialAdvisor(userId, userPrompt)
+    print(recommendations)

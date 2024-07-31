@@ -45,15 +45,6 @@ def fetchDataMongo(collection_name, query={}):
     
     return documents
 
-# Example usage
-# if __name__ == "__main__":
-#     # ans = list_collections()
-#     # print(ans)
-#     collection_name = "users"
-#     query = {}  # Empty query to fetch all documents
-    
-#     data = fetchDataMongo(collection_name, query)
-#     for document in data:
-#         print(document)
+
 
 

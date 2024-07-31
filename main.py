@@ -11,8 +11,6 @@ import json
 
 app = FastAPI()
 
-app = FastAPI()
-
 class PromptItem(BaseModel):
     userPrompt: str
 
@@ -86,4 +84,4 @@ def report_handler(userId: str):
 
 @app.get("/")
 def read_root():
-    return {"Hello": "Uphar Randi hai"}
+    return {"Hello": "Welcome to the Samarr"}

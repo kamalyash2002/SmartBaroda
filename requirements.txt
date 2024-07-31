@@ -20,6 +20,7 @@ debugpy==1.8.2
 decorator==5.1.1
 distro==1.9.0
 dnspython==2.6.1
+duckduckgo_search==6.2.5
 email_validator==2.2.0
 executing==2.0.1
 faiss-cpu==1.8.0
@@ -65,6 +66,7 @@ parso==0.8.4
 pexpect==4.9.0
 platformdirs==4.2.2
 portalocker==2.10.0
+primp==0.5.5
 prompt_toolkit==3.0.47
 psutil==6.0.0
 ptyprocess==0.7.0

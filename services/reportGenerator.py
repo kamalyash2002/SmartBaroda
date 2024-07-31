@@ -41,6 +41,7 @@ def reportGenerator(userId: str):
         Suggest the user {username} the best practices to save money for the future in points.
         Consider different factors like health, wealth, child education and lifestyle etc.
         Dont Display the user transaction details again just analyse.
+        Keep the content in second person.
         
         These are {username} user's total amount spent in each category:
         {userTransactions}
@@ -53,3 +54,8 @@ def reportGenerator(userId: str):
         "savingsSuggestions" : savingSuggestions.content
     }
 
+## Example usage
+if __name__ == "__main__":
+    userId = "123456"
+    ans = reportGenerator(userId)
+    print(ans)

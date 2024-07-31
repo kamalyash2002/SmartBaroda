@@ -67,7 +67,8 @@ def policyRecommender(userId: str, userPrompt: str):
         f"""
         User requirements: {userPrompt}
         Provide the policy recommendation for the user whose CIBIL score is {cibil_score} and use the User requirements.
-        Use the policyTool to fetch current available policies and return the recommended multiple policies as the output in an array of JSON objects format as given in JSON example.
+        Use the policyTool to fetch current available policies and return the recommended multiple similar policies and after getting them transform the output in an array of JSON objects format as given in JSON example.
+        Don't provide the empty or null response. Provide atleast one policy recommendation.
         """ +
         """
         JSON Example:
@@ -93,7 +94,7 @@ def policyRecommender(userId: str, userPrompt: str):
 
 
 # # # Example usage
-# if __name__ == "__main__":
-#     userId = "123456"
-#     recommendations = policyRecommender(userId ,"I want Child Policies")
-#     print(recommendations)
+if __name__ == "__main__":
+    userId = "123456"
+    recommendations = policyRecommender(userId ,"I want Child Policies")
+    print(recommendations)
