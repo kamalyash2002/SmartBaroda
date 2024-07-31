@@ -66,7 +66,7 @@ exports.addPolicySubscribed = async (req, res) => {
     await policySubscribed.save();
 
     // Optionally, update the user's policy subscriptions
-    user.policiesSubscribed.push(policySubscribed._id);
+    // user.policiesSubscribed.push(policySubscribed._id);
     await user.save();
 
     res.status(201).json(policySubscribed);

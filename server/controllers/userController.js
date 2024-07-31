@@ -15,6 +15,7 @@ exports.getUserProfile = async (req, res) => {
 
     // Find issued loans for the user
     const issuedLoans = await LoansIssued.find({ recieverAccNo: accNo });
+    const issuedPolicies = await PoliciesSubscribed.find({ recieverAccNo: accNo });
 
     // Fetch transactions manually
     const transactions = await Transaction.find({
@@ -37,6 +38,7 @@ exports.getUserProfile = async (req, res) => {
       ...user._doc, 
       transactions: formattedTransactions, 
       loans: issuedLoans, 
+      policies: issuedPolicies,
       sellerDetails 
     });
   } catch (err) {
