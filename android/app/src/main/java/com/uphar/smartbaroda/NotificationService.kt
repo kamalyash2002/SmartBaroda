@@ -38,7 +38,7 @@ class NotificationService(private val context: Context) {
     }
 
     fun showExpandableNotification(notificationsPopup :String) {
-        val notification = NotificationCompat.Builder(context, "smart_baroda_notification")
+        val notification = NotificationCompat.Builder(context, "water_notification")
             .setContentTitle("Best Ai Suggestions")
             .setContentText(notificationsPopup)
             .setSmallIcon(R.drawable.bob_logo)
