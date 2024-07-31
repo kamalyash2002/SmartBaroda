@@ -8,6 +8,7 @@ from langchain.agents import tool, initialize_agent
 from mongoClient import fetchDataMongo
 from repo.user import userTransactionCategory
 import json
+import re
 
 
 
@@ -20,7 +21,18 @@ def dateTool(query: str) -> str:
 @tool 
 def userTransactionCategoryTool(userId: str) -> str:
     """User Transaction Category tool : To get the user transaction by the transaction category"""
-    ## fetch the loan details from the json fil and convert it to string 
-    transactions  = userTransactionCategory(int(userId))
+    accNo = re.findall(r'\d+', userId)
+    print(type(userId))
+    print("This is the userid " ,accNo)
+    transactions  = userTransactionCategory(int(accNo[0]))
     response = transactions
+    return response
+
+@tool
+def userLast10Transactions(userId: str) -> str:
+    """User Last 10 Transactions tool : To get the last 10 transactions of the user"""
+    accNo = re.findall(r'\d+', userId)
+    transactions = fetchDataMongo("transactions", {"senderAccNo": int(accNo[0])})
+    response = transactions[-10:]
+    print("Last 10 Transactions: ", response)
     return response
