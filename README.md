@@ -8,7 +8,7 @@ This project aims to solve the problem of personalized content generation for th
 
 ## App Download
 
-Link : https://github.com/kamalyash2002/SmartBaroda/tags
+Link : https://github.com/kamalyash2002/SmartBaroda/tags](https://github.com/kamalyash2002/SmartBaroda/releases/tag/v1.0.0
 
 ## Screenshots 
 
