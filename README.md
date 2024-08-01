@@ -167,7 +167,7 @@ Core Backend Branch : [Core Server](https://github.com/kamalyash2002/SmartBaroda
 5. **Activity/Fragment**
    - **Function**: Displays data, handles user interactions, and delegates logic to ViewModel.
   
-#### Frontend Architecture Diagram
+#### Android Architecture Diagram
 
 ![image](https://github.com/user-attachments/assets/ff93809c-765b-46ab-a1ef-8a432a40547b)
 
