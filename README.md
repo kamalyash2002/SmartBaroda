@@ -83,6 +83,7 @@ Link : [Click Here](https://github.com/kamalyash2002/SmartBaroda/releases/tag/v1
     
   </tr>
 </table>
+![image](https://github.com/user-attachments/assets/0e06a3d5-679a-4681-bfa8-0eadb0d4d5ad)
 
 
 ## Repository
