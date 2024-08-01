@@ -108,9 +108,9 @@ Link : [Click Here](https://github.com/kamalyash2002/SmartBaroda/releases/tag/v1
 
 
 ## Repository
-Android Code Branch Link: [SmartBaroda](https://github.com/uphargaur/SmartBaroda)
-GenAI Backend Branch : [GenAI Services](https://github.com/kamalyash2002/SmartBaroda/tree/final-genAI)
-Core Backend Branch : [Core Server](https://github.com/kamalyash2002/SmartBaroda/tree/final-submission/server)
+- Android Code Branch Link: [SmartBaroda](https://github.com/uphargaur/SmartBaroda)
+- GenAI Backend Branch : [GenAI Services](https://github.com/kamalyash2002/SmartBaroda/tree/final-genAI)
+- Core Backend Branch : [Core Server](https://github.com/kamalyash2002/SmartBaroda/tree/final-submission/server)
 
 
 ## Architecture
