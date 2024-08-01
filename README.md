@@ -8,7 +8,12 @@ This project aims to solve the problem of personalized content generation for th
 
 ## App Download
 
-Link : [Click Here](https://github.com/kamalyash2002/SmartBaroda/releases/tag/v1.0.0)
+Link: [Click Here](https://github.com/kamalyash2002/SmartBaroda/releases/tag/v1.0.0)
+
+## Demo Video
+
+Link: [Click Here](https://drive.google.com/file/d/1UP4HDMRYRRkgNY9YDKMYw2d3H8kNtH96/view?usp=sharing)
+
 
 ## Screenshots 
 
