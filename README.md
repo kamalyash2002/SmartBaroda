@@ -80,10 +80,14 @@ Link : [Click Here](https://github.com/kamalyash2002/SmartBaroda/releases/tag/v1
       <br />
       <strong>Splash Screen</strong>
     </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/80b97b28-0db4-46d4-98f0-030ff2e8ac1a" alt="Splash Screen" width="300"/>
+      <br />
+      <strong>Splash Screen</strong>
+    </td>
     
   </tr>
 </table>
-![image](https://github.com/user-attachments/assets/80b97b28-0db4-46d4-98f0-030ff2e8ac1a)
 
 
 
