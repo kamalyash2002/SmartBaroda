@@ -104,6 +104,11 @@ Core Backend Branch : [Core Server](https://github.com/kamalyash2002/SmartBaroda
 4. **Feedback Loop**
    - **Components**: Azure Application Insights, Power BI
    - **Function**: Gathers feedback on content effectiveness to refine and improve personalization algorithms.
+  
+#### Overall Architecture (For the final production ready application)
+
+![image](https://github.com/user-attachments/assets/7c066730-6923-44ab-be3c-4a4a582fc68e)
+
 
 ### Backend Architecture
 1. **Source Code Management**
@@ -125,6 +130,11 @@ Core Backend Branch : [Core Server](https://github.com/kamalyash2002/SmartBaroda
    - **Components**: MongoDB
    - **Function**: Storing and retrieving application data efficiently.
 
+#### Backend Architecture Diagram
+
+![image](https://github.com/user-attachments/assets/f4d34852-61fb-4ee4-b961-77a77b3d2d04)
+
+
 ### Generative AI Architecture
 1. **Langchain Agent**
    - **Function**: Uses a language model to choose a sequence of actions to take.
@@ -135,6 +145,11 @@ Core Backend Branch : [Core Server](https://github.com/kamalyash2002/SmartBaroda
 3. **OpenAI LLM (Azure)**
    - **Components**: OpenAI ChatGPT 3.5/4.0, Langchain Framework
    - **Function**: Generative AI for creating personalized content.
+  
+#### Generative AI Architecture Diagram
+
+![image](https://github.com/user-attachments/assets/abf55b7b-db85-48be-963a-8b1ecda80675)
+
 
 ### Frontend Architecture
 1. **Retrofit Service**
@@ -151,15 +166,14 @@ Core Backend Branch : [Core Server](https://github.com/kamalyash2002/SmartBaroda
 
 5. **Activity/Fragment**
    - **Function**: Displays data, handles user interactions, and delegates logic to ViewModel.
+  
+#### Frontend Architecture Diagram
+
+![image](https://github.com/user-attachments/assets/ff93809c-765b-46ab-a1ef-8a432a40547b)
 
 ## Azure Resources Required
-- **Azure Machine Learning**: For the entire machine learning lifecycle.
 - **Azure AI Studio & Azure OpenAI**: For advanced language models.
-- **Azure Virtual Machines**: For scalable computing power.
-- **Azure Kubernetes Service (AKS)**: For managing data processing nodes.
-- **Azure Data Lake Storage**: For scalable data storage.
-- **Azure Logic Apps**: For workflow automation.
-- **Azure Application Insights**: For monitoring and feedback.
+- **Azure App Services **: For Deployement of the Backend for core and generative AI services
 
 ## Methodology
 1. **Pilot Testing**
@@ -212,8 +226,8 @@ Core Backend Branch : [Core Server](https://github.com/kamalyash2002/SmartBaroda
 
 
 ## Contributors
-- Yash Kamal Saxena
-- Tushar Garg
-- Uphar Gaur
+- Yash Kamal Saxena (Generative AI Infra Developer)
+- Tushar Garg (Backend Core Infra Developer)
+- Uphar Gaur (Android Infra Developer)
 
 Thank you for considering our project!
