@@ -75,10 +75,14 @@ Link : [Click Here](https://github.com/kamalyash2002/SmartBaroda/releases/tag/v1
       <br />
       <strong>Splash Screen</strong>
     </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/683410c4-b0c6-4a31-b164-239d8b27bc22" alt="Splash Screen" width="300"/>
+      <br />
+      <strong>Splash Screen</strong>
+    </td>
+    
   </tr>
 </table>
-
-![image](https://github.com/user-attachments/assets/683410c4-b0c6-4a31-b164-239d8b27bc22)
 
 
 ## Repository
