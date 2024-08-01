@@ -17,7 +17,7 @@ Link : [Click Here](https://github.com/kamalyash2002/SmartBaroda/releases/tag/v1
     <td>
       <img src="https://github.com/user-attachments/assets/ea56b505-968e-4976-b5ba-1391e4cb6f76" alt="Financial Advisor" width="300"/>
       <br />
-      <strong>Financial Advisor</strong>
+      <strong>AI Financial Advisor</strong>
     </td>
     <td>
       <img src="https://github.com/user-attachments/assets/46baf0d7-5964-40d1-9fdb-9e0a63fd64de" alt="Dashboard Home Screen" width="300"/>
@@ -25,43 +25,43 @@ Link : [Click Here](https://github.com/kamalyash2002/SmartBaroda/releases/tag/v1
       <strong>Dashboard Home Screen</strong>
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/d79eea6e-f9c8-4721-96fa-f49f6d6c0280" alt="Graph and Goals" width="300"/>
+      <img src="https://github.com/user-attachments/assets/5ed13bae-3660-430c-b9d8-725617c41233" alt="Financial Report" width="300"/>
       <br />
-      <strong>Graph and Goals</strong>
+      <strong>AI Generated Financial Report</strong>
     </td>
   </tr>
   <tr>
     <td>
       <img src="https://github.com/user-attachments/assets/25baa61b-5bb2-4655-8f24-ed5eb03c607e" alt="AI Prompts 1" width="300"/>
       <br />
-      <strong>AI Prompts 1</strong>
+      <strong>Personalized AI Bots</strong>
     </td>
     <td>
       <img src="https://github.com/user-attachments/assets/6116f091-8e8a-40a2-9a3b-799c6c34da1e" alt="AI Prompts 2" width="300"/>
       <br />
-      <strong>AI Prompts 2</strong>
+      <strong>Personalized AI Bots</strong>
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/8a37d73b-e561-479e-bcdf-52c8e76944e8" alt="Transaction" width="300"/>
+      <img src="https://github.com/user-attachments/assets/29f963b3-06c4-4694-8bdc-b022fbee345c" alt="AI Loan Recommender" width="300"/>
       <br />
-      <strong>Transaction</strong>
+      <strong>Bot Detector</strong>
     </td>
   </tr>
   <tr>
     <td>
       <img src="https://github.com/user-attachments/assets/398afb99-85bf-458d-a666-4286b907319d" alt="Transaction Screen" width="300"/>
       <br />
-      <strong>Transaction Screen</strong>
+      <strong>Payment Screen</strong>
     </td>
     <td>
       <img src="https://github.com/user-attachments/assets/5113e213-693f-4f50-934b-eb7958e29f28" alt="Profile Screen" width="300"/>
       <br />
       <strong>Profile Screen</strong>
     </td>
-    <td>
-      <img src="https://github.com/user-attachments/assets/5ed13bae-3660-430c-b9d8-725617c41233" alt="Financial Report" width="300"/>
+     <td>
+      <img src="https://github.com/user-attachments/assets/d79eea6e-f9c8-4721-96fa-f49f6d6c0280" alt="Graph and Goals" width="300"/>
       <br />
-      <strong>Financial Report</strong>
+      <strong>Graph and Goals</strong>
     </td>
   </tr>
   <tr>
@@ -76,21 +76,27 @@ Link : [Click Here](https://github.com/kamalyash2002/SmartBaroda/releases/tag/v1
       <strong>Splash Screen</strong>
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/683410c4-b0c6-4a31-b164-239d8b27bc22" alt="Splash Screen" width="300"/>
+      <img src="https://github.com/user-attachments/assets/683410c4-b0c6-4a31-b164-239d8b27bc22" alt="AI Policy Recommender" width="300"/>
       <br />
-      <strong>Splash Screen</strong>
+      <strong>AI Policy Recommender</strong>
     </td>
    
     
   </tr>
   <tr>
      <td>
-      <img src="https://github.com/user-attachments/assets/80b97b28-0db4-46d4-98f0-030ff2e8ac1a" alt="Splash Screen" width="300"/>
+      <img src="https://github.com/user-attachments/assets/80b97b28-0db4-46d4-98f0-030ff2e8ac1a" alt="AI Loan Recommender" width="300"/>
       <br />
-      <strong>Splash Screen</strong>
+      <strong>AI Loan Recommender</strong>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/8a37d73b-e561-479e-bcdf-52c8e76944e8" alt="Transaction" width="300"/>
+      <br />
+      <strong>Transaction</strong>
     </td>
   </tr>
 </table>
+
 
 
 
