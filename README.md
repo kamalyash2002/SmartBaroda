@@ -49,9 +49,9 @@ Link : [Click Here](https://github.com/kamalyash2002/SmartBaroda/releases/tag/v1
   </tr>
   <tr>
     <td>
-      <img src="https://github.com/user-attachments/assets/398afb99-85bf-458d-a666-4286b907319d" alt="Transaction Screen" width="300"/>
+      <img src="https://github.com/user-attachments/assets/0dc4317c-fc08-45e2-b323-56cc6d9603b4" alt="Transaction" width="300"/>
       <br />
-      <strong>Payment Screen</strong>
+      <strong>AI Based Smart Notification</strong>
     </td>
     <td>
       <img src="https://github.com/user-attachments/assets/5113e213-693f-4f50-934b-eb7958e29f28" alt="Profile Screen" width="300"/>
@@ -94,10 +94,15 @@ Link : [Click Here](https://github.com/kamalyash2002/SmartBaroda/releases/tag/v1
       <br />
       <strong>Transaction</strong>
     </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/398afb99-85bf-458d-a666-4286b907319d" alt="Transaction Screen" width="300"/>
+      <br />
+      <strong>Payment Screen</strong>
+    </td>
   </tr>
 </table>
 
-![image](https://github.com/user-attachments/assets/0dc4317c-fc08-45e2-b323-56cc6d9603b4)
+
 
 
 
