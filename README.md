@@ -1,4 +1,4 @@
-# Personalized Content Generation for Bank of Baroda Hackathon 2024
+![image](https://github.com/user-attachments/assets/544880d7-c3d9-4542-831d-4073273d2ef0)# Personalized Content Generation for Bank of Baroda Hackathon 2024
 
 ## Team: Coach_Sahab
 "Driving the technology through the leaps of Himalayas"
@@ -78,6 +78,7 @@ Link : [Click Here](https://github.com/kamalyash2002/SmartBaroda/releases/tag/v1
   </tr>
 </table>
 
+![image](https://github.com/user-attachments/assets/683410c4-b0c6-4a31-b164-239d8b27bc22)
 
 
 ## Repository
