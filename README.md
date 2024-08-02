@@ -1,3 +1,4 @@
+
 # Personalized Content Generation for Bank of Baroda Hackathon 2024
 
 ## Team: Coach_Sahab
@@ -47,7 +48,7 @@ Link: [Click Here](https://drive.google.com/file/d/1UP4HDMRYRRkgNY9YDKMYw2d3H8kN
       <strong>Personalized AI Bots</strong>
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/29f963b3-06c4-4694-8bdc-b022fbee345c" alt="AI Loan Recommender" width="300"/>
+      <img src="https://github.com/user-attachments/assets/f3d10e63-6339-4e3a-bc9c-6ca587e7378e" alt="AI Loan Recommender" width="300"/>
       <br />
       <strong>Bot Detector</strong>
     </td>
